@@ -1,11 +1,13 @@
-# JLink-adapter PCB
+# Electronics Widgets
 
 ## Background
 
-This is a simple adapter PCB to go between the 20-pin JLink connector and the 10pin SWD connector.  However, it also adds some simple extra features link a Power LED, and a DUT-Power LED.  
+This is a collection of small boards and tools for use with electronics.  All the PCBs in here are considered independent projects, but are not complex enough to warrant a separate repo.  
 
-## Todos
+## PCBs
 
-1. Fix the SWD connector footprint. It's currently 2 separate footprints overlapping, which causes all sorts of DRC grief.  
-1. Consider adding some activity LEDs.
-1. Fix the KiBot + Github integration.
+| Name          | Status                  | Description                    |
+| ------------  | ----------------------- | ----------- |
+| JLink Adapter | V1 Ordered, not tested. | A simple Jlink to SWD adapter with a few extra features.|
+| REF33xx Adapter | In progress | A Breadboard adapter for the REF33xx series references. |
+
