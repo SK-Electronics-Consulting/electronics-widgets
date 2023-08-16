@@ -14,7 +14,7 @@ A simple board that breaks out the connections into convenient points.  It will 
 | Version | Status | Notes |
 | ------- | ------ | ----- |
 | V1      | Built and using.  | First attempt at it.  Lessons learned |
-| V2      | Planning |  |
+| V2      | Ordered | Removed redundant TPs, added Regulator location |
 
 ## Lessons learned
 
