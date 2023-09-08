@@ -1304,7 +1304,7 @@
     (property "Value" "Conn_02x10_Odd_Even" (at 59.69 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" (at 58.42 36.83 0)
+    (property "Footprint" "JLink-adapter:PinSocket_2x10_P2.54mm_Horizontal_clipped_silkscreen" (at 58.42 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 58.42 36.83 0)
