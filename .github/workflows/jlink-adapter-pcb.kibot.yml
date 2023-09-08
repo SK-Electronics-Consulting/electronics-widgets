@@ -12,10 +12,11 @@ jobs:
     # Start of the KiBot steps
     - name: Run KiBot
       run: |
-        kibot -e "jlink-adapter.kicad_sch"
+        cd jlink-adapter-PCB
+        kibot -e "jlink-adapter.kicad_sch" -c "config.kibot.yaml"
 
     # Commit the generated files to the repo
-    - name: Commit schematic pdfs
+    - name: Commit files
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
