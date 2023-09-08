@@ -6,6 +6,10 @@ This is a simple adapter PCB to go between the 20-pin JLink connector and the 10
 
 ## Todos
 
-1. Fix the SWD connector footprint. It's currently 2 separate footprints overlapping, which causes all sorts of DRC grief.  
 1. Consider adding some activity LEDs.
 1. Fix the KiBot + Github integration.
+
+## History
+
+V1: First iteration.  Found 1 critical bug where the JLink pinout was flipped.  Also some usability issues were found.
+V2: Fixed jlink flipped bug.  Changed to 4 layer board.  Moved non-user components to bottom side for aesthetics and space savings.  Fixed the SWD footprint to allow for both SMT and PTH connectors.  Added better docs in schematic.

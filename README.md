@@ -8,6 +8,6 @@ This is a collection of small boards and tools for use with electronics.  All th
 
 | Name          | Status                  | Description                    |
 | ------------  | ----------------------- | ----------- |
-| JLink Adapter | V1 Ordered, not tested. | A simple Jlink to SWD adapter with a few extra features.|
+| JLink Adapter | V1 had critical bug. V2 Ordered, not tested. | A simple Jlink to SWD adapter with a few extra features.|
 | REF33xx Adapter | In progress | A Breadboard adapter for the REF33xx series references. |
 | Breadboard Power Supply Adapter | V1 Ordered and in use. | Simple Adapter to bring power to breadboards, including 4-wire. |
