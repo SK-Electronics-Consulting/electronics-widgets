@@ -1,0 +1,21 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c4b4938f-57db-4256-8168-815a3371e956)
+
+  (paper "A4")
+
+  (title_block
+    (title "CR2032_battery_load_tester")
+    (rev "0.0")
+    (company "SK Electronics Consulting")
+    (comment 1 "Client: _____________")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
