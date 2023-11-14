@@ -1105,6 +1105,8 @@
     )
   )
 
+  (gr_line (start 59.85 75.2) (end 60.9 82.35)
+    (stroke (width 0.15) (type default)) (layer "Eco1.User") (tstamp f5a3bf22-975d-42c4-a6a8-94f6378d339e))
   (gr_rect (start 50 50) (end 65.5 77)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp d235f2c9-a4dd-4eb0-ba17-bd9cdb9943fd))
   (gr_text "Front, Connectors and LEDs" (at 98 60) (layer "F.Cu") (tstamp fe628ccb-ac48-497d-a00b-198b5d9258e6)
@@ -1136,6 +1138,9 @@
   )
   (gr_text "Front, Mask" (at 98 58) (layer "F.Mask") (tstamp e8389096-464f-42bb-8218-490af10773d4)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
+  (gr_text "Reduce hole diameter a little" (at 59.8 83.75) (layer "Eco1.User") (tstamp ed43b02b-22b7-4f0c-a6eb-36db816be869)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "Back, Assembly" (at 98 74) (layer "B.Fab") (tstamp bf18ec0e-c4d6-4f72-be08-cdf78c6fe076)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
