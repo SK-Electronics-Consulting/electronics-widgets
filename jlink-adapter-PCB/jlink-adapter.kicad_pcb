@@ -167,7 +167,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dc01f6f2-e180-405a-bb39-5e201df8bdab")
+			(uuid "a1f20216-caa9-40f7-bf15-d715a5c12bdb")
 			(effects
 				(font
 					(size 1 1)
@@ -180,7 +180,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "247c6b9a-6cc1-45b2-90d7-410618a6ccea")
+			(uuid "150a1925-db71-4d92-a320-10536660f14d")
 			(effects
 				(font
 					(size 1 1)
@@ -193,7 +193,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1eee52fa-738c-4e40-84ab-fba1277a5c6a")
+			(uuid "47320234-1de3-4612-9627-ea56e87ee729")
 			(effects
 				(font
 					(size 1 1)
@@ -206,7 +206,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "275ec91c-76b4-426f-a2a8-2c5e7700e0b4")
+			(uuid "80ee80a2-f24c-433d-8fd7-3e20d7732321")
 			(effects
 				(font
 					(size 1 1)
@@ -219,7 +219,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fceb2564-cc07-4adb-84b2-b88bcecf6bad")
+			(uuid "f11149ff-0ac8-45fc-8fb9-2cc61aac8458")
 			(effects
 				(font
 					(size 1 1)
@@ -232,7 +232,7 @@
 			(at 0 -0.2 0)
 			(unlocked yes)
 			(layer "F.Cu")
-			(uuid "b7ec4c15-c1fe-4317-8f51-9531fac49b51")
+			(uuid "8977c078-a116-4e4b-9c1a-2d94b409bf23")
 			(effects
 				(font
 					(size 1 1)
@@ -245,7 +245,7 @@
 			(at 1 -0.2 0)
 			(unlocked yes)
 			(layer "In1.Cu")
-			(uuid "d1283265-c517-46dd-a04f-332753190c00")
+			(uuid "c3656181-5929-4d51-bd95-7c97f364144e")
 			(effects
 				(font
 					(size 1 1)
@@ -258,7 +258,7 @@
 			(at 2 -0.2 0)
 			(unlocked yes)
 			(layer "In2.Cu")
-			(uuid "3fd293c7-cdaf-4427-84a2-62810d140faf")
+			(uuid "55e7d445-f9eb-4084-afe0-c6d105465d6f")
 			(effects
 				(font
 					(size 1 1)
@@ -271,7 +271,7 @@
 			(at 3 -0.2 0)
 			(unlocked yes)
 			(layer "B.Cu")
-			(uuid "5bda022b-b427-4d85-9360-97f873f1026a")
+			(uuid "af0be40d-b522-4907-8121-640ba8969c11")
 			(effects
 				(font
 					(size 1 1)
@@ -284,7 +284,7 @@
 			(net 0)
 			(net_name "")
 			(layers "*.Cu")
-			(uuid "c209ae80-0546-4228-9a9b-a58d7f943a09")
+			(uuid "d413319d-e72b-40f9-91d4-9185bee0ef76")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)

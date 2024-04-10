@@ -9,6 +9,9 @@ jobs:
     steps:  
     - name: Checkout repo
       uses: actions/checkout@v3  # Github built-in repo checkout step.
+      with:
+        submodules: recursive
+        token: ${{ secrets.CI_SKEC_KICAD_LIBS_SECRET }}
     - name: Run KiBot
       uses: INTI-CMNB/KiBot@v2_k8
       with:
