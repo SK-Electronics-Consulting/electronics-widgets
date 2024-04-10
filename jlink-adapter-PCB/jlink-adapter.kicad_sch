@@ -2113,9 +2113,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2213,8 +2213,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2233,9 +2233,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2309,8 +2309,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2392,7 +2392,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2447,6 +2447,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bea3f2f4-3d27-423d-8268-c552b0af5af7")
+	)
+	(junction
+		(at 203.2 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfd94bc8-8677-4e87-b16f-ff013275ecf1")
 	)
 	(junction
 		(at 71.12 34.29)
@@ -2647,6 +2653,16 @@
 			(type default)
 		)
 		(uuid "30fc6e5a-60aa-44f4-a631-471069e63c72")
+	)
+	(wire
+		(pts
+			(xy 203.2 31.75) (xy 207.01 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d1073a-7a98-4e84-9c13-9cfda6e31c60")
 	)
 	(wire
 		(pts
@@ -2930,6 +2946,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 27.94) (xy 140.97 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae19692d-7fdf-4f65-a2b9-5d3e87b82464")
+	)
+	(wire
+		(pts
 			(xy 151.13 44.45) (xy 160.02 44.45)
 		)
 		(stroke
@@ -2950,23 +2976,23 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 31.75) (xy 207.01 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c963dc4c-2cca-402c-9227-540cc429ac58")
-	)
-	(wire
-		(pts
 			(xy 140.97 27.94) (xy 140.97 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf7dd2e4-bc0f-45ad-921b-92586b649bab")
+		(uuid "c577cb6b-a8de-4149-997c-d657e80af508")
+	)
+	(wire
+		(pts
+			(xy 194.31 31.75) (xy 203.2 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c963dc4c-2cca-402c-9227-540cc429ac58")
 	)
 	(wire
 		(pts
@@ -3267,7 +3293,7 @@
 		(uuid "af5a609d-6fd5-4895-a1c2-47c29cb45715")
 	)
 	(label "VTREF"
-		(at 140.97 27.94 0)
+		(at 133.35 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3311,7 +3337,7 @@
 		(uuid "d1263a29-3b87-4ed0-ba34-6d87f7cdfdc0")
 	)
 	(label "VTREF"
-		(at 199.39 31.75 0)
+		(at 194.31 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3366,7 +3392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 130.81 140.97 0)
 			(effects
 				(font
@@ -3868,7 +3894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 140.97 50.8 0)
 			(effects
 				(font
@@ -4072,7 +4098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 130.81 95.25 0)
 			(effects
 				(font
@@ -4229,7 +4255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 34.29 43.18 0)
 			(effects
 				(font
@@ -4295,7 +4321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 193.04 44.45 0)
 			(effects
 				(font
@@ -4698,7 +4724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 146.05 0)
 			(effects
 				(font
@@ -4764,7 +4790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 40.64 140.97 0)
 			(effects
 				(font
@@ -4968,7 +4994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 146.05 0)
 			(effects
 				(font
@@ -5034,7 +5060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 71.12 44.45 0)
 			(effects
 				(font
@@ -5100,7 +5126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 40.64 105.41 0)
 			(effects
 				(font
@@ -5195,6 +5221,73 @@
 			(project "jlink-adapter"
 				(path "/c4b4938f-57db-4256-8168-815a3371e956"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 203.2 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8dbf2a3-3798-4085-ab1c-063cecebaea5")
+		(property "Reference" "#FLG03"
+			(at 203.2 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 203.2 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 203.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd8715bc-2fa3-4752-aa28-1714986d0d49")
+		)
+		(instances
+			(project "jlink-adapter"
+				(path "/c4b4938f-57db-4256-8168-815a3371e956"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

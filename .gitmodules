@@ -1,0 +1,3 @@
+[submodule "SKEC_KiCAD_libs"]
+	path = SKEC_KiCAD_libs
+	url = git@github.com:SK-Electronics-Consulting/SKEC_KiCAD_libs.git
