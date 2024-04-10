@@ -3112,6 +3112,17 @@
 		)
 		(uuid "dadc8f6b-d36e-4e80-9ba1-c14c92ee3f2c")
 	)
+	(text "V4 TODO:\n1. Reduce J1 hole diameter by 0.1mm\n2. R3 make 1k\n3. Remove JP1 and JP2.\n4. Add Jumper between VTREF and R3\n5. Increase SMT pad length for J2"
+		(exclude_from_sim no)
+		(at 210.82 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfbc6454-dfb4-4db2-b32b-e3d5b7c163d7")
+	)
 	(label "SWO"
 		(at 160.02 44.45 180)
 		(fields_autoplaced yes)
