@@ -6,18 +6,16 @@ on:
 jobs:
   KiBot-Generation:  # Can be any name
     runs-on: ubuntu-latest  # Don't change
-    container: ghcr.io/inti-cmnb/kicad7_auto:latest  # Don't Change
-
     steps:  
     - name: Checkout repo
       uses: actions/checkout@v3  # Github built-in repo checkout step.
-
-    # Start of the KiBot steps
     - name: Run KiBot
-      run: |
-        cd jlink-adapter-PCB
-        kibot -e "jlink-adapter.kicad_sch" -c "config.kibot.yaml"
-
+      uses: INTI-CMNB/KiBot@v2_k8
+      with:
+        config: jlink-adapter-PCB/config.kibot.yaml
+        dir: jlink-adapter-PCB
+        schema: 'jlink-adapter-PCB/jlink-adapter.kicad_sch'
+        board: 'jlink-adapter-PCB/jlink-adapter.kicad_pcb'
     - name: Retrieve results
       if: ${{ always() }}
       uses: actions/upload-artifact@v3
