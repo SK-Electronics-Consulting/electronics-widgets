@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,0402,1,0.1u,
+J1,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02,
+J2,PinHeader_1x03_P2.54mm_Vertical,1,Conn_01x03,
+"R1, R2, R3, R4, R5",0402,5,R_Small,
+"TP1, TP2, TP3",TestPoint_Keystone_5000-5004_Miniature,3,TestPoint,
+U1,SOT-23-5,1,TLV3541,TLV3541IDBVR
