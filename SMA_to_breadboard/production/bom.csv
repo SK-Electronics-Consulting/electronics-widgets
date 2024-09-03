@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J1,SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount,1,SMA,
+"J2, J3",PinHeader_1x03_P2.54mm_Vertical,2,Conn_01x03,
+J4,TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal,1,Screw_Terminal,
+R1,0603,1,DNP,
