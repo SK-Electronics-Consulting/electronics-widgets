@@ -2,37 +2,35 @@ kibot:
   version: 1
 
 preflight:
-  run_erc: true
-  run_drc: true
-  check_zone_fills: true
-  ignore_unconnected: false
+  erc: true
+  drc: true
   # filters:
-    # - filter_msg: 'Pin connected to other pins, but not driven by any pin'
-    #   error_number: 3
-    #   regexp:  '(Power input) of component'
+  # - filter_msg: 'Pin connected to other pins, but not driven by any pin'
+  #   error_number: 3
+  #   regexp:  '(Power input) of component'
 
 outputs:
-  - name: 'Print Schema as PDF'
+  - name: "Print Schema as PDF"
     comment: "Print schematic (PDF)"
     type: pdf_sch_print
     dir: docs
     options:
-      output: '%p-Schematic.%x'
+      output: "%p-Schematic.%x"
 
-  - name: 'Print Schema as SVGs'
+  - name: "Print Schema as SVGs"
     comment: "Print schematic (SVG)"
     type: svg_sch_print
     dir: docs
     options:
-      output: '%p-Schematic.%x'
+      output: "%p-Schematic.%x"
 
-  - name: 'print board'
+  - name: "print board"
     comment: "Print board (PDF)"
     type: pdf_pcb_print
-    layers: 'all'
+    layers: "all"
     dir: docs
     options:
-      output: '%p-Board.%x'
+      output: "%p-Board.%x"
 
   # # PcbDraw - Beautiful 2D PCB render:
   # # Uses configurable colors.

@@ -760,7 +760,7 @@
 			(net 0)
 			(net_name "")
 			(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
-			(uuid "69521799-d55f-497c-92d8-dd497176865a")
+			(uuid "bca51394-4aca-4ad7-9e2b-ec9f80d37eb6")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
