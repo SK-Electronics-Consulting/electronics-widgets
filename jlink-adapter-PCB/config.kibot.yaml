@@ -29,8 +29,7 @@ outputs:
 
   - name: "print board"
     comment: "Print board (PDF)"
-    type: pdf_pcb_print
-    layers: "all"
+    type: pcb_print
     dir: docs
     options:
       output: "%p-Board.%x"
