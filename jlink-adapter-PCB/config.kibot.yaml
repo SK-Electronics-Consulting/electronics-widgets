@@ -11,7 +11,7 @@ preflight:
           regex: "Back, Assembly"
         - filter: "Layer label text"
           error: 145
-          regex: "Back, Assembly"
+          regex: "Back, Mask"
 
 outputs:
   - name: "Print Schema as PDF"
