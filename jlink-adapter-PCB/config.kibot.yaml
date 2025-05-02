@@ -4,13 +4,13 @@ kibot:
 preflight:
   erc: true
   drc:
-    - filters:
-        - filter: "Layer label text"
-          error: 145
-          regex: "Back, Assembly"
-        - filter: "Layer label text"
-          error: 145
-          regex: "Back, Mask"
+    filters:
+      - filter: "Layer label text"
+        error: 145
+        regex: "Back, Assembly"
+      - filter: "Layer label text"
+        error: 145
+        regex: "Back, Mask"
 
 outputs:
   - name: "Print Schema as PDF"
