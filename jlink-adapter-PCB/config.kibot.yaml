@@ -4,10 +4,13 @@ kibot:
 preflight:
   erc: true
   drc: true
-  # filters:
-  # - filter_msg: 'Pin connected to other pins, but not driven by any pin'
-  #   error_number: 3
-  #   regexp:  '(Power input) of component'
+    - filters:
+      - filter: 'Layer label text'
+        error: 145
+        regex:  'Back, Assembly'
+      - filter: 'Layer label text'
+        error: 145
+        regex:  'PCB text 'Back, Assembly'
 
 outputs:
   - name: "Print Schema as PDF"
@@ -26,7 +29,7 @@ outputs:
 
   - name: "print board"
     comment: "Print board (PDF)"
-    type: pdf_pcb_print
+    type: pcb_print
     layers: "all"
     dir: docs
     options:
