@@ -6,10 +6,10 @@ preflight:
   drc:
     filters:
       - filter: "Layer label text"
-        error: 145
+        error: "145"
         regex: "Back, Assembly"
       - filter: "Layer label text"
-        error: 145
+        error: "W145"
         regex: "Back, Mask"
 
 outputs:
