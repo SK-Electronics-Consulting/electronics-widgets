@@ -16,5 +16,7 @@ For the CAN side, it provides a [transceiver chip](https://www.analog.com/en/pro
     1. QWIIC connector is blocked by the screw terminal pins.  A workaround is to clip the pins before soldering. Real solution would be to turn the QWIIC connector 90 Degrees or to move it to the top layer
     1. Saleae connector is mostly fine, but could be moved out by ~1mm so that the connector mates completely with the saleae.
     1. CAN Labels are obscured by the plugged in Qwiic connector. Rotating the connector will help, but labelling better would be preferred.
-1. v1.1 Planning
-    1. Move QWIIC connector to top layer and grow PCB slightly.  IC and resistors can stay on bottom layer.  Also move to vertical insert QWIIC connector.
+1. v2
+    1. Moved all components to top layer (in prep for possibly ordering assembly from JLC)
+    1. Add a second QWIIC connector
+    1. Move CAN connector to end and make it psuedo-edge launch
