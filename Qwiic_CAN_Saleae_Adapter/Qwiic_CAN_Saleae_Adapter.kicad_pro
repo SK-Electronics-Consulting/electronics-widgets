@@ -62,10 +62,6 @@
         [
           "lib_footprint_mismatch|48990000|55990000|c07d3439-050e-4f2d-b25c-d54cc18f829c|00000000-0000-0000-0000-000000000000",
           "Removing Silkscreen that would end up off-board"
-        ],
-        [
-          "lib_footprint_mismatch|57900000|52200000|751fbee2-3985-4a0d-a432-c54f7e8ee897|00000000-0000-0000-0000-000000000000",
-          "Shrunk Courtyard"
         ]
       ],
       "meta": {
@@ -133,8 +129,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
-        "min_connection": 0.1,
+        "min_clearance": 0.15,
+        "min_connection": 0.15,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -146,7 +142,7 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.1,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.005,
@@ -498,7 +494,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -572,7 +568,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -612,6 +608,48 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Position Offset",
+          "name": "FT Position Offset",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PartsBox ID",
+          "name": "PartsBox ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part No.",
+          "name": "JLCPCB Part No.",
+          "show": true
         }
       ],
       "filter_string": "",
