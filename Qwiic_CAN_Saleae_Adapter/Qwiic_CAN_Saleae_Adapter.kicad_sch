@@ -248,27 +248,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Connector_Generic:Conn_02x01"
 			(pin_names
-				(offset 0.762)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "Conn_02x01"
+				(at 1.27 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -276,7 +273,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 0 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -285,15 +282,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -302,7 +290,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -311,7 +299,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -320,24 +308,53 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -1.27)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "TestPoint_1_1"
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -345,6 +362,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -811,189 +846,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -1119,27 +971,23 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Small_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Mechanical:MountingHole"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
-			(exclude_from_sim yes)
-			(in_bom yes)
+			(exclude_from_sim no)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
+			(property "Reference" "H"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Jumper_2_Small_Bridged"
-				(at 0 -2.286 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1164,7 +1012,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1173,7 +1021,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Jumper SPST"
+			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1182,7 +1030,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1191,10 +1039,432 @@
 					(hide yes)
 				)
 			)
-			(symbol "Jumper_2_Small_Bridged_0_0"
+			(symbol "MountingHole_0_1"
 				(circle
-					(center -1.016 0)
-					(radius 0.254)
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PartsBox:BM04B-SRSS-TBT(LF)(SN)"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_QWIIC_Vertical"
+				(at -5.08 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://partsbox.com/I4nga0y2dyjgrba8226q50sap03"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.0mm Pitch, Ultra-Compact, Low Profile Design, Interchangeable Shrouded Header"
+				(at -2.54 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "BM04B-SRSS-TBT(LF)(SN)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digi-Key" "455-BM04B-SRSS-TBTCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Linked"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FT Rotation Offset" "180"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FT Position Offset" "0,-0.381"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartsBox ID" "4nga0y2dyjgrba8226q50sap03"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part No." "C495539"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BM04B-SRSS-TBT(LF)(SN)_1_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.112) (xy 2.54 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 2.54 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -2.54 0)
+					(length 3.81)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -5.08 0)
+					(length 3.81)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.048)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PartsBox:LTST-C190KRKT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://partsbox.com/Ib7k17z15cekaq9nt767vczf2qm"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED LTST-C190KRKT; SMD 0603; czerwona 631-639nm; 99mcd /20mA; water clear"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Linked"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Lite-On"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FT Rotation Offset" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FT Position Offset" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "LTST-C190KRKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartsBox ID" "b7k17z15cekaq9nt767vczf2qm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part No." "C94869"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C190KRKT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1203,9 +1473,34 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.016 0)
-					(radius 0.254)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1215,25 +1510,11 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Small_Bridged_0_1"
-				(arc
-					(start -0.762 0.254)
-					(mid 0 0.5696)
-					(end 0.762 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_1_1"
+			(symbol "LTST-C190KRKT_1_1"
 				(pin passive line
 					(at -2.54 0 0)
-					(length 1.27)
-					(name "A"
+					(length 1.778)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1250,8 +1531,8 @@
 				)
 				(pin passive line
 					(at 2.54 0 180)
-					(length 1.27)
-					(name "B"
+					(length 1.778)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1634,218 +1915,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SKEC_Symbols:Conn_QWIIC_Vertical"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_QWIIC_Vertical"
-				(at -5.08 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "QWIIC Connector"
-				(at -2.54 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "C495539"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digi-Key" "455-BM04B-SRSS-TBTCT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector, qwiic, i2c"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_QWIIC_Vertical_1_1"
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -7.112) (xy 2.54 -7.112)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -6.731 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 2.54 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 3.81)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -2.54 0)
-					(length 3.81)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -5.08 0)
-					(length 3.81)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 3.048)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2425,44 +2494,89 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SALEAE_2"
+	(rectangle
+		(start 50.8 132.08)
+		(end 142.24 158.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f43c5e6c-1f68-410a-9377-9fa8b537c633)
+	)
+	(text "NOTES:\n1. PinHeader/PinSocket naming does not match actual parts.\n   This decision was made to make the pin numberings make a little more sense."
 		(exclude_from_sim no)
-		(at 86.36 130.81 90)
+		(at 13.97 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
+		)
+		(uuid "2564248a-d184-423e-95cf-5eb991fb5890")
+	)
+	(text "SALEAE_2"
+		(exclude_from_sim no)
+		(at 81.28 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "587a63f7-ba2e-447c-87f6-2dee588faddf")
 	)
 	(text "SALEAE_0"
 		(exclude_from_sim no)
-		(at 81.28 130.81 90)
+		(at 81.28 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d1407cc9-97e5-4584-9988-6df32f58e601")
 	)
-	(text "SALEAE_1"
+	(text "Channels 4-7 Passthrough"
 		(exclude_from_sim no)
-		(at 83.82 130.81 90)
+		(at 92.6133 157.3921 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+		)
+		(uuid "eff186ee-0c4a-4b99-ac58-043cd799dfcf")
+	)
+	(text "SALEAE_1"
+		(exclude_from_sim no)
+		(at 81.28 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "fca58ee4-b5a3-45a1-b8f8-9f2fecb09ff0")
 	)
 	(junction
-		(at 83.82 144.78)
+		(at 57.15 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "013bc296-01d7-476f-ba3c-f88f061430d1")
+	)
+	(junction
+		(at 111.76 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eb42a1a-2aef-49ef-8eda-1a0943871dad")
+	)
+	(junction
+		(at 57.15 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "376eb275-1e8d-4d28-8dae-153272a9b38b")
 	)
 	(junction
 		(at 97.79 60.96)
@@ -2483,16 +2597,16 @@
 		(uuid "75027c60-3cfb-496a-8eea-0e94e741567d")
 	)
 	(junction
+		(at 111.76 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7533e779-e223-4152-9372-dd48440753bb")
+	)
+	(junction
 		(at 105.41 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75658311-fb00-4e4c-a644-ad2fbef4ef83")
-	)
-	(junction
-		(at 85.09 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c7d25b9-9388-4f2f-87cc-fb06f31b04e9")
 	)
 	(junction
 		(at 240.03 135.89)
@@ -2513,10 +2627,22 @@
 		(uuid "a2c0c8e2-79e2-4606-89fd-14266d6a22da")
 	)
 	(junction
+		(at 57.15 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6bfa730-94b2-42c0-b828-3f717d025b63")
+	)
+	(junction
 		(at 196.85 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aeff945d-df4b-47ae-aaa0-e1792f8f062e")
+	)
+	(junction
+		(at 111.76 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baa04430-e84c-4112-af15-d6a8fe96d2c1")
 	)
 	(junction
 		(at 240.03 130.81)
@@ -2525,10 +2651,16 @@
 		(uuid "c2ddd6f8-65c4-4247-99a0-68d532e275c3")
 	)
 	(junction
-		(at 86.36 144.78)
+		(at 57.15 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb4eacac-c6ec-4bea-932d-ea9cfed074c7")
+	)
+	(junction
+		(at 57.15 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4a94c78-6942-47b4-a08e-dccd4cd3b0eb")
 	)
 	(junction
 		(at 102.87 41.91)
@@ -2543,10 +2675,36 @@
 		(uuid "e21e6c81-007d-40ea-b770-0fa4e59e8b19")
 	)
 	(junction
+		(at 57.15 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e42fa779-2a04-4e8b-886f-f63804369734")
+	)
+	(junction
 		(at 49.53 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2cf2b22-6166-4b9a-af73-3dad83a87b97")
+	)
+	(wire
+		(pts
+			(xy 137.16 146.05) (xy 125.73 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09658981-4bfb-4043-a170-a12c37b2bf1c")
+	)
+	(wire
+		(pts
+			(xy 57.15 119.38) (xy 57.15 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abecb27-f64d-48ef-8a53-411f5239c761")
 	)
 	(wire
 		(pts
@@ -2610,7 +2768,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 143.51) (xy 88.9 144.78)
+			(xy 82.55 143.51) (xy 71.12 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf79a9a-ecf3-4340-be72-1ec6af43928e")
+	)
+	(wire
+		(pts
+			(xy 58.42 119.38) (xy 57.15 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2620,7 +2788,17 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 38.1) (xy 226.06 39.37)
+			(xy 137.16 143.51) (xy 125.73 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd92755-e4a7-44e2-a3a1-57fad277bbbe")
+	)
+	(wire
+		(pts
+			(xy 226.06 38.1) (xy 226.06 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2630,13 +2808,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 143.51) (xy 83.82 144.78)
+			(xy 58.42 114.3) (xy 57.15 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "128aeb65-9b6a-4f34-bcc5-dec14a4ada49")
+	)
+	(wire
+		(pts
+			(xy 57.15 143.51) (xy 57.15 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12bfe223-8925-4766-9173-5f0b4b3bc763")
 	)
 	(wire
 		(pts
@@ -2650,7 +2838,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 144.78) (xy 85.09 147.32)
+			(xy 57.15 114.3) (xy 57.15 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2710,6 +2898,36 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 146.05) (xy 111.76 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26742e91-064d-4b0e-8606-f9128800d3e6")
+	)
+	(wire
+		(pts
+			(xy 111.76 149.86) (xy 111.76 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6fb3db-8273-42d2-bab1-f1e49eb17a29")
+	)
+	(wire
+		(pts
+			(xy 125.73 148.59) (xy 137.16 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e4b0bd9-2a92-40fa-a741-b01a9bcc2a12")
+	)
+	(wire
+		(pts
 			(xy 114.3 54.61) (xy 119.38 54.61)
 		)
 		(stroke
@@ -2717,6 +2935,16 @@
 			(type default)
 		)
 		(uuid "3428dda3-2914-4b6a-afcb-dd476b1035d7")
+	)
+	(wire
+		(pts
+			(xy 58.42 146.05) (xy 57.15 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384a9452-5b81-4ec9-ab32-c070a71a29d4")
 	)
 	(wire
 		(pts
@@ -2740,13 +2968,43 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 116.84) (xy 86.36 130.81)
+			(xy 58.42 148.59) (xy 57.15 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b8fe627-c5d0-4d18-9ca4-7ac22f253421")
+		(uuid "3b51d7f8-227e-4cf3-9326-9442d911a6d1")
+	)
+	(wire
+		(pts
+			(xy 137.16 140.97) (xy 125.73 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0a06b8-d196-46d6-a9fe-58747a8afe95")
+	)
+	(wire
+		(pts
+			(xy 113.03 140.97) (xy 111.76 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3cdbaf-906c-4e34-89c8-2d27ad75a3da")
+	)
+	(wire
+		(pts
+			(xy 82.55 140.97) (xy 71.12 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4416851c-9f74-433a-ba28-abfa8a0650f6")
 	)
 	(wire
 		(pts
@@ -2760,23 +3018,33 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 144.78) (xy 88.9 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46976c19-2390-40e7-bc2f-2eb0189cab50")
-	)
-	(wire
-		(pts
-			(xy 226.06 46.99) (xy 226.06 48.26)
+			(xy 226.06 45.72) (xy 226.06 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "479990ae-0645-4647-9eb3-208986f89060")
+	)
+	(wire
+		(pts
+			(xy 125.73 119.38) (xy 135.89 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bcf044e-9a99-43a7-ad99-904509a0d3b8")
+	)
+	(wire
+		(pts
+			(xy 113.03 148.59) (xy 111.76 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da9c3a7-3230-4da3-b1b2-3737ca4d4f73")
 	)
 	(wire
 		(pts
@@ -2790,6 +3058,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 140.97) (xy 57.15 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53986fae-d848-46d8-ac83-d3c5002e6b27")
+	)
+	(wire
+		(pts
 			(xy 105.41 44.45) (xy 105.41 41.91)
 		)
 		(stroke
@@ -2800,7 +3078,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 143.51) (xy 86.36 144.78)
+			(xy 58.42 116.84) (xy 57.15 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2820,13 +3098,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 111.76) (xy 96.52 111.76)
+			(xy 113.03 143.51) (xy 111.76 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5eb3f12c-8c97-499e-9e98-ad7853663bc5")
+		(uuid "5a34f2f5-d120-41ff-bcee-1672fcd5bcc6")
 	)
 	(wire
 		(pts
@@ -2850,6 +3128,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 149.86) (xy 57.15 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6481ce73-c3db-4a45-9577-2c1e0e593146")
+	)
+	(wire
+		(pts
 			(xy 102.87 40.64) (xy 102.87 39.37)
 		)
 		(stroke
@@ -2857,16 +3145,6 @@
 			(type default)
 		)
 		(uuid "662b4487-310f-4549-a8d6-1be010fe6844")
-	)
-	(wire
-		(pts
-			(xy 83.82 114.3) (xy 96.52 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c03d5a6-ac46-4d2a-8a71-1e6436192d35")
 	)
 	(wire
 		(pts
@@ -2900,6 +3178,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 116.84) (xy 57.15 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73892667-ae6a-490f-8130-24615e1ae9f0")
+	)
+	(wire
+		(pts
 			(xy 223.52 135.89) (xy 240.03 135.89)
 		)
 		(stroke
@@ -2910,17 +3198,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 144.78) (xy 85.09 144.78)
+			(xy 71.12 116.84) (xy 96.52 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7660204c-9d29-4587-9ba2-907eb749f7ed")
+		(uuid "76d8de95-d58a-476f-a998-ae7a0105d1dd")
 	)
 	(wire
 		(pts
-			(xy 81.28 143.51) (xy 81.28 144.78)
+			(xy 58.42 111.76) (xy 57.15 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2940,6 +3228,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 114.3) (xy 96.52 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850d2d04-c31f-4970-ae6c-90fde2d0c70f")
+	)
+	(wire
+		(pts
 			(xy 96.52 46.99) (xy 97.79 46.99)
 		)
 		(stroke
@@ -2950,13 +3248,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 144.78) (xy 86.36 144.78)
+			(xy 111.76 120.65) (xy 111.76 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88da888f-3718-466b-ba84-3bf9a500e51f")
+		(uuid "8746d517-ebd3-47a4-936f-ff3704acfda6")
 	)
 	(wire
 		(pts
@@ -2980,13 +3278,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 130.81) (xy 88.9 119.38)
+			(xy 111.76 119.38) (xy 113.03 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "998d2e0b-cbfb-4912-bd03-60053b3a3313")
+		(uuid "90b242fb-1ddf-4920-b9e5-dcbf1e764038")
+	)
+	(wire
+		(pts
+			(xy 57.15 140.97) (xy 57.15 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9610288f-3df1-45d7-8642-b01d0137e660")
 	)
 	(wire
 		(pts
@@ -3000,16 +3308,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 59.69) (xy 226.06 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a8b3392-0a80-4b94-8c18-8a1f75d499f1")
-	)
-	(wire
-		(pts
 			(xy 248.92 134.62) (xy 248.92 135.89)
 		)
 		(stroke
@@ -3020,7 +3318,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 144.78) (xy 83.82 144.78)
+			(xy 57.15 111.76) (xy 57.15 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3037,6 +3335,26 @@
 			(type default)
 		)
 		(uuid "a727b47e-2504-4e18-8c1d-bdfc17005cb3")
+	)
+	(wire
+		(pts
+			(xy 82.55 146.05) (xy 71.12 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a927b4b0-32c5-4b14-9e81-1964554828e2")
+	)
+	(wire
+		(pts
+			(xy 111.76 140.97) (xy 111.76 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a962b90c-a8fe-43bb-b02c-6972ced1f6ec")
 	)
 	(wire
 		(pts
@@ -3090,6 +3408,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 148.59) (xy 111.76 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba49ffcb-6bb7-4fe7-bc4a-5dc632e315f5")
+	)
+	(wire
+		(pts
 			(xy 248.92 130.81) (xy 240.03 130.81)
 		)
 		(stroke
@@ -3120,6 +3448,26 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 143.51) (xy 57.15 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3210dce-9a38-407b-ab9a-8b2745ba5cf3")
+	)
+	(wire
+		(pts
+			(xy 71.12 111.76) (xy 96.52 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6db0c37-bf7b-4091-9fc0-b7e4862f2bb7")
+	)
+	(wire
+		(pts
 			(xy 90.17 62.23) (xy 93.98 62.23)
 		)
 		(stroke
@@ -3140,33 +3488,43 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 114.3) (xy 83.82 130.81)
+			(xy 71.12 148.59) (xy 82.55 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5922999-929a-4210-ba05-f48fc81e0821")
+		(uuid "d1a76cbd-27c3-4b94-aeea-e8a89f7a9aff")
 	)
 	(wire
 		(pts
-			(xy 88.9 119.38) (xy 91.44 119.38)
+			(xy 57.15 148.59) (xy 57.15 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da31c6a8-f7fa-4a63-bce0-3af5576bb352")
+		(uuid "d39541bb-00d0-4dea-8b53-701bda16d9a2")
 	)
 	(wire
 		(pts
-			(xy 96.52 116.84) (xy 86.36 116.84)
+			(xy 71.12 119.38) (xy 81.28 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da60dba9-8eba-4330-b874-e6b6487ec91b")
+		(uuid "dce65c9f-e58c-4804-a9d8-f9ca356f3d51")
+	)
+	(wire
+		(pts
+			(xy 111.76 143.51) (xy 111.76 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0204d3-f680-4d29-b3a5-2382f8e5c8ad")
 	)
 	(wire
 		(pts
@@ -3177,16 +3535,6 @@
 			(type default)
 		)
 		(uuid "e9decc4b-c312-4193-abe4-3a4745a49cff")
-	)
-	(wire
-		(pts
-			(xy 81.28 111.76) (xy 81.28 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea9080c8-68d1-46be-b354-15f5debd1f87")
 	)
 	(wire
 		(pts
@@ -3278,13 +3626,23 @@
 		)
 		(uuid "fff13465-2d31-4c13-9abc-656beb1b1635")
 	)
-	(label "SALEAE_3"
-		(at 88.9 130.81 90)
+	(label "SALEAE_4"
+		(at 82.55 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
+		)
+		(uuid "010b9bbd-080b-4efa-8daa-1c250b47e44a")
+	)
+	(label "SALEAE_3"
+		(at 81.28 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "06523471-39f5-483b-82c4-1717beb63fd0")
 	)
@@ -3297,6 +3655,16 @@
 			(justify right bottom)
 		)
 		(uuid "19cfaf44-ac2c-4fc9-9290-0585459b4ef9")
+	)
+	(label "SALEAE_5"
+		(at 137.16 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d40d0b9-2de3-404f-bbff-9e21c48587b2")
 	)
 	(label "CAN_RX"
 		(at 96.52 116.84 180)
@@ -3328,6 +3696,36 @@
 		)
 		(uuid "3a5a5445-72c5-4c52-a129-0e90a65d4bac")
 	)
+	(label "SALEAE_4"
+		(at 137.16 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44cd3c27-73ab-45b4-a0fb-5a16b1c0841f")
+	)
+	(label "SALEAE_5"
+		(at 82.55 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a0c1a23-588e-41b5-b29f-8a250f5cbbff")
+	)
+	(label "SALEAE_6"
+		(at 82.55 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ed5da7a-8ee2-4411-8c60-48f61d40ffd2")
+	)
 	(label "SCL"
 		(at 119.38 54.61 180)
 		(effects
@@ -3337,6 +3735,36 @@
 			(justify right bottom)
 		)
 		(uuid "612acdc3-87cb-44bc-8808-a601e3c90904")
+	)
+	(label "SALEAE_7"
+		(at 82.55 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7158724b-415a-4d53-bc2c-17a4040a3deb")
+	)
+	(label "SALEAE_3"
+		(at 135.89 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "773a8856-83ab-4606-a136-b61c7b28cf89")
+	)
+	(label "SALEAE_6"
+		(at 137.16 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c7525fd-b4bd-4a42-a550-0ab64f1c46c1")
 	)
 	(label "SDA"
 		(at 119.38 52.07 180)
@@ -3387,6 +3815,16 @@
 			(justify right bottom)
 		)
 		(uuid "c648c421-45ca-43cf-9db8-9f6b0c263dd8")
+	)
+	(label "SALEAE_7"
+		(at 137.16 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4ce4273-bbca-41ee-bb12-c286eef1d53e")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3440,6 +3878,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C131394"
+			(at 218.44 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX7R9BB104"
+			(at 218.44 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57c6c481-18cf-4143-a16d-b1bc343d40a0")
 		)
@@ -3457,8 +3913,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 83.82 135.89 90)
-		(mirror x)
+		(at 66.04 114.3 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3466,7 +3922,7 @@
 		(dnp no)
 		(uuid "1a8a4267-5096-4811-86f3-02d0d11cb35d")
 		(property "Reference" "J3"
-			(at 91.44 138.4301 90)
+			(at 63.5 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,7 +3931,7 @@
 			)
 		)
 		(property "Value" "Saleae"
-			(at 91.44 135.8901 90)
+			(at 62.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +3940,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal"
-			(at 83.82 135.89 0)
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +3949,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2308241402_CJT-Changjiang-Connectors-A2541HWR-2x4P_C7529541.pdf"
-			(at 83.82 135.89 0)
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +3958,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 83.82 135.89 0)
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,8 +3966,35 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C7529541"
-			(at 83.82 135.89 90)
+		(property "MPN" ""
+			(at 66.04 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C2897424"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +4130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SKEC_Symbols:Conn_QWIIC_Vertical")
+		(lib_id "PartsBox:BM04B-SRSS-TBT(LF)(SN)")
 		(at 45.72 48.26 0)
 		(mirror y)
 		(unit 1)
@@ -3682,7 +4165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Datasheet" "https://partsbox.com/I4nga0y2dyjgrba8226q50sap03"
 			(at 45.72 48.26 0)
 			(effects
 				(font
@@ -3691,7 +4174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "QWIIC Connector"
+		(property "Description" "1.0mm Pitch, Ultra-Compact, Low Profile Design, Interchangeable Shrouded Header"
 			(at 48.26 73.66 0)
 			(effects
 				(font
@@ -3700,7 +4183,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C495539"
+		(property "MPN" "BM04B-SRSS-TBT(LF)(SN)"
 			(at 45.72 48.26 0)
 			(effects
 				(font
@@ -3710,6 +4193,60 @@
 			)
 		)
 		(property "Digi-Key" "455-BM04B-SRSS-TBTCT-ND"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C495539"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Linked"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.381"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartsBox ID" "4nga0y2dyjgrba8226q50sap03"
 			(at 45.72 48.26 0)
 			(effects
 				(font
@@ -3905,16 +4442,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 60.96 0)
+		(at 111.76 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2bc05199-b7ba-4ea9-8bab-d31f72478ff7")
-		(property "Reference" "#PWR011"
-			(at 226.06 67.31 0)
+		(uuid "293c57b3-a4a5-4ed1-935c-396d26b2904e")
+		(property "Reference" "#PWR015"
+			(at 111.76 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,7 +4460,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 66.04 0)
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +4469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 60.96 0)
+			(at 111.76 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +4478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 60.96 0)
+			(at 111.76 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,7 +4487,179 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bd29842-f796-4988-971b-934e5e7b2a66")
+		)
+		(instances
+			(project "Qwiic_CAN_Saleae_Adapter"
+				(path "/949440e4-cca1-43a6-bfa4-2ae453deeba6"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 120.65 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b9e7b61-d28d-4f6e-b447-b428ebc64c05")
+		(property "Reference" "J7"
+			(at 119.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x01"
+			(at 119.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C492401"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a67859e0-da37-4eca-9f82-bc3a112e734e")
+		)
+		(pin "2"
+			(uuid "29b07a38-1848-4795-acbd-7404211c787e")
+		)
+		(instances
+			(project ""
+				(path "/949440e4-cca1-43a6-bfa4-2ae453deeba6"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bc05199-b7ba-4ea9-8bab-d31f72478ff7")
+		(property "Reference" "#PWR011"
 			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,6 +4846,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 66.04 143.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d61545d-2068-40f1-b9d0-e46afa1996c4")
+		(property "Reference" "J5"
+			(at 63.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Saleae"
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal"
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2308241402_CJT-Changjiang-Connectors-A2541HWR-2x4P_C7529541.pdf"
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 66.04 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C2897424"
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e3f4a2f-bd04-4420-82f7-2278780c5eba")
+		)
+		(pin "6"
+			(uuid "85f4887c-66e2-477c-8447-eeaaa0ca8742")
+		)
+		(pin "2"
+			(uuid "93c07c23-8a46-4be6-b2e0-fd16246cc1dd")
+		)
+		(pin "3"
+			(uuid "4afa9528-b13d-4147-8a7e-0826975f6b3e")
+		)
+		(pin "7"
+			(uuid "1e906fa5-60a7-441c-ad46-83b622953cc4")
+		)
+		(pin "8"
+			(uuid "99bb5dc0-9597-4a58-b74a-5a582a365214")
+		)
+		(pin "4"
+			(uuid "0439a898-dd75-4ab1-93c5-2e183c23e800")
+		)
+		(pin "5"
+			(uuid "907a9537-9577-40a5-bf5a-9cb307cbe103")
+		)
+		(instances
+			(project "Qwiic_CAN_Saleae_Adapter"
+				(path "/949440e4-cca1-43a6-bfa4-2ae453deeba6"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 114.3 46.99 0)
 		(unit 1)
@@ -4210,6 +5034,15 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 114.3 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C114762"
 			(at 114.3 46.99 0)
 			(effects
 				(font
@@ -4302,7 +5135,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 147.32 0)
+		(at 57.15 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4311,7 +5144,7 @@
 		(fields_autoplaced yes)
 		(uuid "540e200f-6f89-4ac0-8471-86d969bfa3c5")
 		(property "Reference" "#PWR02"
-			(at 85.09 153.67 0)
+			(at 57.15 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +5153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 152.4 0)
+			(at 57.15 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,7 +5162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 147.32 0)
+			(at 57.15 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,7 +5171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 147.32 0)
+			(at 57.15 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +5180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 147.32 0)
+			(at 57.15 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,6 +5349,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C114762"
+			(at 226.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7843f50a-7c58-4624-badd-4863c279fa7a")
 		)
@@ -4606,6 +5448,15 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 105.41 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C114762"
 			(at 105.41 46.99 0)
 			(effects
 				(font
@@ -4896,35 +5747,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 91.44 119.38 270)
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 120.65 143.51 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdc147a6-55ce-46ed-a345-e26429e911f8")
-		(property "Reference" "TP1"
-			(at 96.52 118.1099 90)
+		(uuid "b12a6ac7-3d32-4755-8207-d9f9d76cebc6")
+		(property "Reference" "J6"
+			(at 118.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 96.52 120.6499 90)
+		(property "Value" "Saleae"
+			(at 116.84 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 91.44 124.46 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
+			(at 120.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,8 +5784,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 91.44 124.46 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2308241402_CJT-Changjiang-Connectors-A2541HWR-2x4P_C7529541.pdf"
+			(at 120.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,8 +5793,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 91.44 119.38 0)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 120.65 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 120.65 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 120.65 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 120.65 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C7501275"
+			(at 120.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,12 +5839,100 @@
 			)
 		)
 		(pin "1"
-			(uuid "b448337d-94f9-4299-ac0c-4445962d4621")
+			(uuid "a54accd7-8417-497f-a9d7-e97cd69d7bd0")
+		)
+		(pin "6"
+			(uuid "5fb1c914-98f6-4fb1-ba9b-3a8b1a120726")
+		)
+		(pin "2"
+			(uuid "5cbfd7a8-80fe-48ad-b303-b72cbf5135b5")
+		)
+		(pin "3"
+			(uuid "ed0ffd6d-25fc-4655-85cc-2d63fccc1006")
+		)
+		(pin "7"
+			(uuid "83695169-c047-4c07-8316-87b8c3a1955b")
+		)
+		(pin "8"
+			(uuid "e44b9232-296d-42b9-b55d-337998a2f303")
+		)
+		(pin "4"
+			(uuid "4c4791e4-be22-4d58-bb4a-09b5f2a081e5")
+		)
+		(pin "5"
+			(uuid "1bbb5e0b-a61e-4b01-937a-9c5817f68352")
 		)
 		(instances
-			(project ""
+			(project "Qwiic_CAN_Saleae_Adapter"
 				(path "/949440e4-cca1-43a6-bfa4-2ae453deeba6"
-					(reference "TP1")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c53ecef9-f779-422d-8572-6e24cb67ce44")
+		(property "Reference" "#PWR016"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc7df913-81a7-456e-81d9-8466e1eb2604")
+		)
+		(instances
+			(project "Qwiic_CAN_Saleae_Adapter"
+				(path "/949440e4-cca1-43a6-bfa4-2ae453deeba6"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5017,13 +5993,22 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C5221297"
+		(property "MPN" ""
 			(at 213.0141 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C5221297"
+			(at 210.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5055,6 +6040,164 @@
 			(project ""
 				(path "/949440e4-cca1-43a6-bfa4-2ae453deeba6"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 139.7 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3e21bd7-6327-46c3-911b-65042ae1383b")
+		(property "Reference" "H1"
+			(at 142.24 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 142.24 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/949440e4-cca1-43a6-bfa4-2ae453deeba6"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d456161d-bb7c-41ca-b969-f112cd0bf681")
+		(property "Reference" "#PWR014"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8046e78-a4f9-40ed-a0c8-8c6319f559ed")
+		)
+		(instances
+			(project "Qwiic_CAN_Saleae_Adapter"
+				(path "/949440e4-cca1-43a6-bfa4-2ae453deeba6"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5194,7 +6337,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SKEC_Symbols:Conn_QWIIC_Vertical")
+		(lib_id "PartsBox:BM04B-SRSS-TBT(LF)(SN)")
 		(at 90.17 49.53 0)
 		(mirror y)
 		(unit 1)
@@ -5229,7 +6372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Datasheet" "https://partsbox.com/I4nga0y2dyjgrba8226q50sap03"
 			(at 90.17 49.53 0)
 			(effects
 				(font
@@ -5238,7 +6381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "QWIIC Connector"
+		(property "Description" "1.0mm Pitch, Ultra-Compact, Low Profile Design, Interchangeable Shrouded Header"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -5247,7 +6390,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C495539"
+		(property "MPN" "BM04B-SRSS-TBT(LF)(SN)"
 			(at 90.17 49.53 0)
 			(effects
 				(font
@@ -5257,6 +6400,60 @@
 			)
 		)
 		(property "Digi-Key" "455-BM04B-SRSS-TBTCT-ND"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C495539"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Linked"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.381"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartsBox ID" "4nga0y2dyjgrba8226q50sap03"
 			(at 90.17 49.53 0)
 			(effects
 				(font
@@ -5345,7 +6542,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-07120RL"
 			(at 240.03 133.35 0)
 			(effects
 				(font
@@ -5364,6 +6561,15 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 240.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C114640"
 			(at 240.03 133.35 0)
 			(effects
 				(font
@@ -5388,104 +6594,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 226.06 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb213e82-31d2-4a2e-9228-1c0511dcd869")
-		(property "Reference" "JP2"
-			(at 227.33 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Small_Bridged"
-			(at 227.33 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 226.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 226.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 226.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FT Position Offset" ""
-			(at 226.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FT Rotation Offset" ""
-			(at 226.06 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "baf2b35c-7808-49f2-8cd7-6bd221f2bde0")
-		)
-		(pin "2"
-			(uuid "a1f43f57-0b7a-4ed9-81c0-de2d10052722")
-		)
-		(instances
-			(project "Qwiic_CAN_Saleae_Adapter"
-				(path "/949440e4-cca1-43a6-bfa4-2ae453deeba6"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
+		(lib_id "PartsBox:LTST-C190KRKT")
 		(at 226.06 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5495,7 +6604,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef07329c-7e8a-4ce5-9bfb-e13146e5e5c9")
 		(property "Reference" "D1"
-			(at 229.87 43.4974 90)
+			(at 228.6 41.8464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +6613,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 229.87 46.0374 90)
+			(at 228.6 44.3864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,6 +6622,24 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 226.06 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://partsbox.com/Ib7k17z15cekaq9nt767vczf2qm"
+			(at 226.06 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED LTST-C190KRKT; SMD 0603; czerwona 631-639nm; 99mcd /20mA; water clear"
 			(at 226.06 43.18 0)
 			(effects
 				(font
@@ -5521,25 +6648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 226.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 226.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
+		(property "MPN" "LTST-C190KRKT"
 			(at 226.06 43.18 0)
 			(effects
 				(font
@@ -5558,6 +6667,51 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Linked"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartsBox ID" "b7k17z15cekaq9nt767vczf2qm"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C94869"
 			(at 226.06 43.18 0)
 			(effects
 				(font
