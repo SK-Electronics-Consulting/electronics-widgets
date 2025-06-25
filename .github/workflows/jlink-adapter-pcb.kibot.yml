@@ -1,29 +1,29 @@
-name: KiBot_GitHub_Actions  # Can by any name
-on: 
+name: KiBot_GitHub_Actions # Can by any name
+on:
   pull_request:
     paths:
-    - 'jlink-adapter-PCB/**'
+      - "jlink-adapter-PCB/**"
 jobs:
-  KiBot-Generation:  # Can be any name
-    runs-on: ubuntu-latest  # Don't change
-    steps:  
-    - name: Checkout repo
-      uses: actions/checkout@v3  # Github built-in repo checkout step.
-      with:
-        submodules: recursive
-        token: ${{ secrets.CI_SKEC_KICAD_LIBS_SECRET }}
-    - name: Run KiBot
-      uses: INTI-CMNB/KiBot@v2_k8
-      with:
-        config: jlink-adapter-PCB/config.kibot.yaml
-        dir: jlink-adapter-PCB
-        schema: 'jlink-adapter-PCB/jlink-adapter.kicad_sch'
-        board: 'jlink-adapter-PCB/jlink-adapter.kicad_pcb'
-    - name: Retrieve results
-      if: ${{ always() }}
-      uses: actions/upload-artifact@v3
-      with:
-        name: Fabrication_Main
-        path: |
-          pcb_main/Fabrication/
-        if-no-files-found: warn
+  KiBot-Generation: # Can be any name
+    runs-on: ubuntu-latest # Don't change
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3 # Github built-in repo checkout step.
+        with:
+          submodules: recursive
+          token: ${{ secrets.CI_SKEC_KICAD_LIBS_SECRET }}
+      - name: Run KiBot
+        uses: INTI-CMNB/KiBot@v2_k9
+        with:
+          config: jlink-adapter-PCB/config.kibot.yaml
+          dir: jlink-adapter-PCB
+          schema: "jlink-adapter-PCB/jlink-adapter.kicad_sch"
+          board: "jlink-adapter-PCB/jlink-adapter.kicad_pcb"
+      - name: Retrieve results
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fabrication_Main
+          path: |
+            pcb_main/Fabrication/
+          if-no-files-found: warn
