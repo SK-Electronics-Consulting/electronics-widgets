@@ -1,0 +1,4 @@
+(version 1)
+(rule "TODO List"
+    (layer "User.Redline")
+    (constraint disallow track via micro_via buried_via pad zone text graphic hole footprint))
