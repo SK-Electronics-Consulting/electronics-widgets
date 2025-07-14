@@ -12,3 +12,10 @@ This board allows you to easily hang and display your SAOs on a tree or other de
 ## TODO
 
 * Test and characterize the current capability of the buck converter
+
+## Next Version Notes
+
+1. Add SOME LEDs to the front of the board to optionally backlight the SAO
+2. Add some art to the front of the board
+3. Figure out a more efficient counterbalance solution. I underestimated the weight of some of the SAO. A 5mm dowel to bind to the branch might be an option.
+4. Might need to move the 2-pin connectors so they don't interfere with the SAO connector.  TBD

@@ -14,4 +14,4 @@ This is a collection of small boards and tools for use with electronics.  All th
 | QWIIC and CAN to Saleae Adapter| V1 Tested and working. V2 ordered | Provides a QWIIC connection point, as well as a CAN PHY IC.  |
 | RasPi Power Adapter | V1 Tested and in-use | Simple Adapter for power into Raspberry Pi 40-pin connector. |
 | REF33xx Adapter | In progress | A Breadboard adapter for the REF33xx series references. |
-| SAO Tree Ormanent | V1 Partially Tested | A tidy way to hang SAO boards a decoration |
+| SAO Tree Ormanent | V1 Partially Tested | A tidy way to hang SAO boards as decoration |
