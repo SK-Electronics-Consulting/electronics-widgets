@@ -12,4 +12,3 @@ This board allows you to easily hang and display your SAOs on a tree or other de
 ## TODO
 
 * Test and characterize the current capability of the buck converter
-* Test that the MCU can be programmed via the TagConnect
