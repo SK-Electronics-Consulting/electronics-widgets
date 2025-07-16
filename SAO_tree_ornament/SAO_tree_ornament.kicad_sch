@@ -3387,16 +3387,6 @@
 		)
 		(uuid "62791f9f-3503-437c-b5d7-b9512627420b")
 	)
-	(text "3.3V [3.2V ... 3.4V]"
-		(exclude_from_sim no)
-		(at 222.25 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bf560662-3aaf-4c35-8ab9-f153308db735")
-	)
 	(junction
 		(at 243.84 31.75)
 		(diameter 0)
