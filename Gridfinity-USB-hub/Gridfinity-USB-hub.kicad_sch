@@ -5185,6 +5185,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" "0,-0.381"
+			(at 60.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 60.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2beb78fd-5e0c-435e-8905-5a5d960cf9a5")
 		)
@@ -5340,6 +5358,24 @@
 			)
 		)
 		(property "MPN" "CH334F"
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 104.14 101.6 0)
 			(effects
 				(font

@@ -1768,7 +1768,7 @@
 	)
 	(bus
 		(pts
-			(xy 153.67 92.71) (xy 152.4 92.71)
+			(xy 153.67 92.71) (xy 137.16 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1829,7 +1829,7 @@
 	)
 	(hierarchical_label "USB{USB}"
 		(shape input)
-		(at 152.4 92.71 180)
+		(at 137.16 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1848,6 +1848,37 @@
 			(justify right)
 		)
 		(uuid "fd79581b-6872-404b-8217-14042c8d0004")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 138.43 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98ba5821-9858-42e2-819d-50bd6e0095f2")
+		(property "Netclass" "USB_DATA"
+			(at 139.1285 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -64.77 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")

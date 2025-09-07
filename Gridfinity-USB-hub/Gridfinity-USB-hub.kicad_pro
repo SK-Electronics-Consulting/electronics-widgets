@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -128,7 +128,7 @@
         "min_connection": 0.1,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.22,
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -138,9 +138,9 @@
         "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -190,7 +190,7 @@
       "track_widths": [
         0.0,
         0.1,
-        0.15,
+        0.152,
         0.2,
         0.3,
         0.5,
@@ -607,6 +607,42 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/USB1.D+": [
+        "USB_DATA"
+      ],
+      "/USB1.D-": [
+        "USB_DATA"
+      ],
+      "/USB1{USB}": [
+        "USB_DATA"
+      ],
+      "/USB2.D+": [
+        "USB_DATA"
+      ],
+      "/USB2.D-": [
+        "USB_DATA"
+      ],
+      "/USB2{USB}": [
+        "USB_DATA"
+      ],
+      "/USB3.D+": [
+        "USB_DATA"
+      ],
+      "/USB3.D-": [
+        "USB_DATA"
+      ],
+      "/USB3{USB}": [
+        "USB_DATA"
+      ],
+      "/USB4.D+": [
+        "USB_DATA"
+      ],
+      "/USB4.D-": [
+        "USB_DATA"
+      ],
+      "/USB4{USB}": [
+        "USB_DATA"
+      ],
       "/Upstream.D+": [
         "USB_DATA"
       ],
