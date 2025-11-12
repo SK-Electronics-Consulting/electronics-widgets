@@ -1,0 +1,17 @@
+{
+  "jobs": [],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "3d693aca-8827-4d52-9539-d6f29ab0ae35",
+      "only": [],
+      "settings": {
+        "output_path": "JLC_gerbers"
+      },
+      "type": "folder"
+    }
+  ]
+}
