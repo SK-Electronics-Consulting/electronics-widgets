@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.3,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -60,19 +60,27 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|118730000|60000000|b23430a8-b972-4127-8594-b316e98104c0|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|103445000|84593600|177e02da-6641-4e0b-817a-3d5d614bb85a|a6e0981c-79f2-4f42-90f2-6525ac647de7",
           ""
         ],
         [
-          "lib_footprint_mismatch|118730000|82000000|ffe00e6c-9bdf-4920-9cf0-f98b650eb526|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|111685000|92495000|e26bbaf4-2396-454c-bb3e-064eae9f993d|ffe00e6c-9bdf-4920-9cf0-f98b650eb526",
           ""
         ],
         [
-          "lib_footprint_mismatch|57270000|60000000|352ce139-256b-4230-be7e-be087a17030f|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|52175000|49005000|1f8cbad6-ec89-4159-81bf-8f3b3abc0041|352ce139-256b-4230-be7e-be087a17030f",
           ""
         ],
         [
-          "lib_footprint_mismatch|57270000|82000000|2ab756f8-61e7-4cee-8a1c-8858d97a548e|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|64315000|92535000|2ab756f8-61e7-4cee-8a1c-8858d97a548e|a427f1f8-ac40-453d-b082-b6c80dd1374c",
+          ""
+        ],
+        [
+          "courtyards_overlap|94255000|57135000|35eb1750-2e81-4a41-b694-192b84851bd4|e5f354a9-96f6-4cc0-a9f2-e99a3890b910",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|81886288|72398514|6fc52b15-8977-45cc-bcb3-f8a8da6c6dc4|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -81,6 +89,18 @@
         ],
         [
           "silk_edge_clearance|50000000|75700000|a1eed57b-2542-4c04-9a49-240383acbe43|28870500-566e-4d1c-bf77-9ced33455513",
+          ""
+        ],
+        [
+          "starved_thermal|102500000|74450000|c3333dc4-8363-48d5-abdf-8e68c90d3e07|ac05b5fc-c70f-4e9a-bfc0-edc25bc9e260|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|102900000|67550000|c3333dc4-8363-48d5-abdf-8e68c90d3e07|3bed5a34-44a0-4688-8c62-d404b890ed33|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|106750000|71000000|c3333dc4-8363-48d5-abdf-8e68c90d3e07|7bed31fd-bd39-44c9-b040-7ca7c820c2f0|F.Cu",
           ""
         ]
       ],
@@ -351,7 +371,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|508000|1371600|761f7472-4283-48a4-8a66-7c04132a404b|2557ed62-fe77-4b85-bdd9-553e878f41c0|/74fafa03-a255-46ac-b2a3-3905ac0a0772|/74fafa03-a255-46ac-b2a3-3905ac0a0772|/74fafa03-a255-46ac-b2a3-3905ac0a0772/080e6dad-3702-415b-9571-728e60f75a76",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -641,7 +666,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "PB_Backpack_Bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -769,11 +794,35 @@
           "label": "Part Number",
           "name": "Part Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_DVDD",
+          "name": "KLC_S4.2_DVDD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_VREG_LX",
+          "name": "KLC_S4.2_VREG_LX",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -826,6 +875,22 @@
     [
       "e24bd15a-60dd-4be5-af70-794216ecaf8e",
       "Buck_converter"
+    ],
+    [
+      "4dc07c2b-f1ea-47b1-956e-1ee69340e931",
+      "MCU"
+    ],
+    [
+      "080e6dad-3702-415b-9571-728e60f75a76",
+      "USB_Input"
+    ],
+    [
+      "45be3db2-f6c3-434e-aedf-e036aca5b26f",
+      "Charger"
+    ],
+    [
+      "b70c2f0a-4e33-4cfe-b000-1a538201a71d",
+      "Battery LEDs"
     ]
   ],
   "text_variables": {}
