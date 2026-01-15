@@ -643,6 +643,42 @@
       "/USB4{USB}": [
         "USB_DATA"
       ],
+      "/USB6.D+": [
+        "USB_DATA"
+      ],
+      "/USB6.D-": [
+        "USB_DATA"
+      ],
+      "/USB6{USB}": [
+        "USB_DATA"
+      ],
+      "/USB7.D+": [
+        "USB_DATA"
+      ],
+      "/USB7.D-": [
+        "USB_DATA"
+      ],
+      "/USB7{USB}": [
+        "USB_DATA"
+      ],
+      "/USB_Hub/Upstream.D+": [
+        "USB_DATA"
+      ],
+      "/USB_Hub/Upstream.D-": [
+        "USB_DATA"
+      ],
+      "/USB_Hub/Upstream{USB}": [
+        "USB_DATA"
+      ],
+      "/USB_MID.D+": [
+        "USB_DATA"
+      ],
+      "/USB_MID.D-": [
+        "USB_DATA"
+      ],
+      "/USB_MID{USB}": [
+        "USB_DATA"
+      ],
       "/Upstream.D+": [
         "USB_DATA"
       ],
@@ -838,6 +874,30 @@
     [
       "b5fa384f-e78c-45c5-a97b-432b5f3cca10",
       "Downstream Port4"
+    ],
+    [
+      "6977dc51-4351-4399-92b7-f8fd256c2e5b",
+      "Upstream"
+    ],
+    [
+      "146c3721-a63c-4ce9-9391-bab134e90c68",
+      "USB_Hub"
+    ],
+    [
+      "881cae81-4908-4fbc-9d59-5468e437e88f",
+      "USB_Hub1"
+    ],
+    [
+      "84e7e08a-e64f-4d6d-b737-e4e4b0beea9e",
+      "JTAG_SWD"
+    ],
+    [
+      "a8266349-f447-4824-b0b8-974d7e89d970",
+      "Serial_comms"
+    ],
+    [
+      "0b8e50e6-cc3e-49b7-8502-b97225662dee",
+      "Power"
     ]
   ],
   "text_variables": {}
