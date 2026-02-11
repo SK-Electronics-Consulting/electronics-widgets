@@ -397,7 +397,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -898,7 +898,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pin" "1=K 2=A"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2010,7 +2010,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "029b85a8-7a72-47b8-9092-8040cc16de21")
+			(uuid "3b87e2b1-32b6-432a-8593-87f9e4ebb369")
 		)
 		(instances
 			(project "Gridfinity-USB-hub"
@@ -2052,7 +2052,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56k"
+		(property "Value" "10k"
 			(at 153.67 83.8199 0)
 			(effects
 				(font
@@ -2088,7 +2088,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." "C25796"
+		(property "JLCPCB Part No." ""
+			(at 151.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREGOUT" ""
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -2098,10 +2107,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "45b89b63-91ba-40db-b5f0-0aa5664bb802")
+			(uuid "ca3b4652-4cc2-4334-b54e-2f9abf849092")
 		)
 		(pin "2"
-			(uuid "7969cd3f-34da-4b88-9af3-352a3c534747")
+			(uuid "70d11105-5517-40cc-978d-6352d183c6f1")
 		)
 		(instances
 			(project "Gridfinity-USB-hub"
@@ -2198,10 +2207,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cee88926-d5c6-41fd-bef2-bb6006347d71")
+			(uuid "c8b1d81c-4b4a-449b-a2fe-ff93c12de8b6")
 		)
 		(pin "2"
-			(uuid "36abc415-55fe-4f60-92b2-d4c3562c8648")
+			(uuid "75ba49be-2326-4357-99fc-7b86f1702d1a")
 		)
 		(instances
 			(project "Gridfinity-USB-hub"
@@ -2324,11 +2333,20 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 80.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "325aa4fa-3b8e-4589-a8f0-fe399b6e3c00")
+			(uuid "4194e2f6-80c1-4dd4-bb65-e7e96e375a07")
 		)
 		(pin "2"
-			(uuid "5d98ca44-ff82-47ef-8e34-82762a25e281")
+			(uuid "cce702e5-c8be-44b0-8071-603739320a83")
 		)
 		(instances
 			(project "Gridfinity-USB-hub"
@@ -2405,7 +2423,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "23ab4728-1d86-4f1a-aea5-13bac8937505")
+			(uuid "256d7b68-a17b-433e-b7f2-594a7b790bab")
 		)
 		(instances
 			(project "Gridfinity-USB-hub"
@@ -2482,7 +2500,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "78110132-bf42-4c8b-8257-ed738c05b6f7")
+			(uuid "19015ea3-c8a6-4a5e-a278-ebcfc97796b4")
 		)
 		(instances
 			(project "Gridfinity-USB-hub"
@@ -2524,7 +2542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56k"
+		(property "Value" "10k"
 			(at 161.29 83.8199 0)
 			(effects
 				(font
@@ -2560,7 +2578,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." "C25796"
+		(property "JLCPCB Part No." ""
 			(at 158.75 82.55 0)
 			(effects
 				(font
@@ -2570,10 +2588,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2525aa6b-fc32-44c7-8afb-599ff74078b2")
+			(uuid "a4ce23dc-8033-4855-91e9-8df6498d12c2")
 		)
 		(pin "2"
-			(uuid "790ab489-ac0d-49e4-b330-13bbf51bb75b")
+			(uuid "ab2872e8-929e-4301-bc09-d8d38ffe958f")
 		)
 		(instances
 			(project "Gridfinity-USB-hub"
@@ -2686,55 +2704,55 @@
 			)
 		)
 		(pin "B12"
-			(uuid "158c0b44-da5b-49f0-9198-98e5af5bcbfb")
+			(uuid "e033acf4-7ebe-475c-ab46-dacc2a6d79dc")
 		)
-		(pin "S1"
-			(uuid "9872753d-0a10-4e02-9e8c-6fbf031303f9")
+		(pin "SH"
+			(uuid "3429a8da-5b49-42ab-8d8d-b927d0fb2890")
 		)
 		(pin "B5"
-			(uuid "d400dac4-799c-46b6-8cc2-8cf16387297b")
+			(uuid "14af3878-e62f-42b8-9022-ba74a6bf3924")
 		)
 		(pin "A5"
-			(uuid "8de8d426-0512-4509-bf02-eb82c4eeeef7")
+			(uuid "bc79c5d4-51f3-4602-a394-a306d0146f91")
 		)
 		(pin "B1"
-			(uuid "741113ec-0bc7-4b1a-af2c-116f156e4a83")
+			(uuid "bfa330b5-4068-45d0-b44c-1700bc50b1a7")
 		)
 		(pin "A4"
-			(uuid "21fb4e7d-064d-40e9-8c0f-c7132c113f60")
+			(uuid "7ab7e81c-310c-46a7-b3bb-b0cb6c74d180")
 		)
 		(pin "B9"
-			(uuid "a5a7b513-f863-4e0a-902d-c8869f35d765")
+			(uuid "bff22815-ed46-400a-8fa1-bc9420ae1e9d")
 		)
 		(pin "B4"
-			(uuid "a2f04b25-6bc5-4b5c-bcab-b2d19846e2ae")
+			(uuid "490ef299-c43a-4ade-b8dc-541620f91e77")
 		)
 		(pin "A6"
-			(uuid "e6cd4639-d18d-45dc-bd75-8b3ca2bb1c97")
+			(uuid "0017593d-3393-4868-9d68-e0f865c90361")
 		)
 		(pin "A8"
-			(uuid "325e6e62-7a7b-4d20-82a4-6c8402edb398")
+			(uuid "5fa03063-1e34-4673-9c56-b051596618f3")
 		)
 		(pin "B7"
-			(uuid "c78a6495-c88f-46e5-bd77-015766c572ac")
+			(uuid "6632be25-a279-48b6-8981-295ca2a7a03c")
 		)
 		(pin "A1"
-			(uuid "d6a1ae3e-1a78-4694-8e72-51e5a003d209")
+			(uuid "52784ea3-614e-4cd6-b382-a1ef0570ecee")
 		)
 		(pin "A12"
-			(uuid "68476f9d-5285-48c9-998e-1229c30c8e06")
+			(uuid "5beb9a05-a000-4afb-8fb5-c670e5ec2fbd")
 		)
 		(pin "A7"
-			(uuid "f3e6f798-91f0-4744-9d43-00ff2d68b5b7")
+			(uuid "e89b1e17-a995-4dfb-a433-98fcb4931c7f")
 		)
 		(pin "A9"
-			(uuid "a2e5fe6e-8580-42d2-87a4-a063ac81f481")
+			(uuid "177214ca-6cf0-4c4f-b32c-15f0c99a2fd2")
 		)
 		(pin "B6"
-			(uuid "731b8cea-54b8-4090-9660-55f50315315a")
+			(uuid "0101dcb6-f242-469a-b983-61c560b447f8")
 		)
 		(pin "B8"
-			(uuid "6cc7aa85-64a2-44bf-a5ba-273fcf9236bb")
+			(uuid "95692599-a8a8-43b6-ae6c-a650bfa50864")
 		)
 		(instances
 			(project "Gridfinity-USB-hub"
@@ -2840,7 +2858,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "823bb449-92ba-4dab-b493-cadcd0a25095")
+			(uuid "19964d22-e5db-47a1-a780-bf5f166c4e6b")
 		)
 		(instances
 			(project "Gridfinity-USB-hub"

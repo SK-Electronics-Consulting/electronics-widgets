@@ -643,6 +643,15 @@
       "/USB4{USB}": [
         "USB_DATA"
       ],
+      "/USB5.D+": [
+        "USB_DATA"
+      ],
+      "/USB5.D-": [
+        "USB_DATA"
+      ],
+      "/USB5{USB}": [
+        "USB_DATA"
+      ],
       "/USB6.D+": [
         "USB_DATA"
       ],
@@ -668,6 +677,15 @@
         "USB_DATA"
       ],
       "/USB_Hub/Upstream{USB}": [
+        "USB_DATA"
+      ],
+      "/USB_Hub0/Upstream.D+": [
+        "USB_DATA"
+      ],
+      "/USB_Hub0/Upstream.D-": [
+        "USB_DATA"
+      ],
+      "/USB_Hub0/Upstream{USB}": [
         "USB_DATA"
       ],
       "/USB_MID.D+": [
@@ -805,6 +823,42 @@
           "label": "Digi-Key",
           "name": "Digi-Key",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_VREGOUT",
+          "name": "KLC_S4.2_VREGOUT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PartsBox ID",
+          "name": "PartsBox ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -881,15 +935,15 @@
     ],
     [
       "146c3721-a63c-4ce9-9391-bab134e90c68",
-      "USB_Hub"
+      "USB_Hub0"
     ],
     [
       "881cae81-4908-4fbc-9d59-5468e437e88f",
       "USB_Hub1"
     ],
     [
-      "84e7e08a-e64f-4d6d-b737-e4e4b0beea9e",
-      "JTAG_SWD"
+      "f267f8f7-6536-45e8-a727-b7ccc3177c1c",
+      "Downstream Port5"
     ],
     [
       "a8266349-f447-4824-b0b8-974d7e89d970",
@@ -898,6 +952,10 @@
     [
       "0b8e50e6-cc3e-49b7-8502-b97225662dee",
       "Power"
+    ],
+    [
+      "f579ac39-e3b5-424b-afed-aa013c6bc577",
+      "Downstream Port6"
     ]
   ],
   "text_variables": {}
