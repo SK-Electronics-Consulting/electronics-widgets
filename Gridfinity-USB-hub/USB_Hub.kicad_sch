@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "4c7f84c5-eba8-4cbf-8ed2-091ecc522065")
 	(paper "A4")
+	(title_block
+		(title "USB 2.0 Hub for Gridifinity")
+		(date "2026-02-16")
+		(rev "2")
+		(company "SK Electronics Consulting LLC")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -3583,7 +3589,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5ac453e8-1ac5-44f4-bfa6-984d65859b47")
 		(property "Reference" "JP1"
 			(at 101.6 48.26 0)
@@ -4920,6 +4926,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C5187527"
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "d11f3750-bff0-4ae8-8a58-7a2d0fb05d61")
 		)
@@ -5104,7 +5128,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ffe6424e-85ec-4cc0-9867-1000d26007a0")
 		(property "Reference" "JP3"

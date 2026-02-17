@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "1ee56f66-b542-439b-b107-83827db208da")
 	(paper "A4")
+	(title_block
+		(title "USB 2.0 Hub for Gridifinity")
+		(date "2026-02-16")
+		(rev "2")
+		(company "SK Electronics Consulting LLC")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
@@ -5458,7 +5464,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "93LCxxBxxOT"
+		(property "Value" "93LC56BxxOT"
 			(at 43.688 95.504 0)
 			(effects
 				(font
@@ -5495,6 +5501,24 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C190271"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "93LC56BT-I/OT"
 			(at 58.42 88.9 0)
 			(effects
 				(font
@@ -5583,6 +5607,24 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 134.62 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C138033"
+			(at 134.62 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-071ML"
 			(at 134.62 125.73 90)
 			(effects
 				(font
@@ -5794,7 +5836,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 143.51 52.07 0)
 			(effects
 				(font
@@ -5804,6 +5846,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 143.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 143.51 52.07 0)
 			(effects
 				(font
@@ -5977,7 +6028,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 97.79 38.1 0)
 			(effects
 				(font
@@ -5987,6 +6038,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 97.79 38.1 0)
 			(effects
 				(font
@@ -6197,7 +6257,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 152.4 52.07 0)
 			(effects
 				(font
@@ -6207,6 +6267,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 152.4 52.07 0)
 			(effects
 				(font
@@ -6351,6 +6420,24 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 128.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C106201"
+			(at 128.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402JRNPO9BN120"
 			(at 128.27 138.43 0)
 			(effects
 				(font
@@ -6570,6 +6657,33 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C492422"
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PZ254V-12-10P"
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "7e4d2b89-fdd7-469c-9775-c589c34bca49")
 		)
@@ -6740,6 +6854,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C114760"
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0712KL"
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1803a285-117b-4fad-a39d-467d69dd8532")
 		)
@@ -6810,7 +6942,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 204.47 29.21 0)
 			(effects
 				(font
@@ -6820,6 +6952,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 204.47 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 204.47 29.21 0)
 			(effects
 				(font
@@ -6899,6 +7040,24 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 132.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C114760"
+			(at 132.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0712KL"
 			(at 132.08 77.47 0)
 			(effects
 				(font
@@ -7109,7 +7268,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 195.58 29.21 0)
 			(effects
 				(font
@@ -7119,6 +7278,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 195.58 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 195.58 29.21 0)
 			(effects
 				(font
@@ -7196,6 +7364,24 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 81.28 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C76891"
+			(at 81.28 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BLM15PD121SN1D"
 			(at 81.28 34.29 90)
 			(effects
 				(font
@@ -7858,6 +8044,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C76891"
+			(at 81.28 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BLM15PD121SN1D"
+			(at 81.28 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e70e3d3-986e-4560-b9aa-7af7e454f2af")
 		)
@@ -7927,6 +8131,33 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 246.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 246.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C492422"
+			(at 246.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PZ254V-12-10P"
 			(at 246.38 50.8 0)
 			(effects
 				(font
@@ -8027,6 +8258,24 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 77.47 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C60488"
+			(at 77.47 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-072KL"
 			(at 77.47 91.44 90)
 			(effects
 				(font
@@ -8238,7 +8487,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 97.79 58.42 0)
 			(effects
 				(font
@@ -8248,6 +8497,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 97.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 97.79 58.42 0)
 			(effects
 				(font
@@ -8326,7 +8584,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 213.36 29.21 0)
 			(effects
 				(font
@@ -8336,6 +8594,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 213.36 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 213.36 29.21 0)
 			(effects
 				(font
@@ -8411,7 +8678,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 52.07 78.74 0)
 			(effects
 				(font
@@ -8421,6 +8688,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 52.07 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 52.07 78.74 90)
 			(effects
 				(font
@@ -8501,6 +8777,24 @@
 		(property private "KLC_S4.2_VREGOUT" "Not a standalone power converter; internal on-chip voltage regulator for VCORE"
 			(at 184.15 170.434 0)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C3227935"
+			(at 184.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 184.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8991,7 +9285,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 120.65 49.53 0)
 			(effects
 				(font
@@ -9001,6 +9295,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 120.65 49.53 0)
 			(effects
 				(font
@@ -9087,6 +9390,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C106201"
+			(at 140.97 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402JRNPO9BN120"
+			(at 140.97 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cbbfaeb8-814f-48db-b0a8-4e9a3a62dd48")
 		)
@@ -9158,6 +9479,24 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C60490"
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
 			(at 71.12 81.28 0)
 			(effects
 				(font

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "d22b1f57-5da8-4e92-b007-a94a372d0099")
 	(paper "A4")
+	(title_block
+		(title "USB 2.0 Hub for Gridifinity")
+		(date "2026-02-16")
+		(rev "2")
+		(company "SK Electronics Consulting LLC")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -2957,6 +2963,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C49851"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "INA226AIDGSR"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "ed4dbd31-e0f5-4adf-ae1b-d32d73bc2700")
 		)
@@ -3253,7 +3277,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C60490"
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -3263,6 +3287,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 151.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
 			(at 151.13 82.55 0)
 			(effects
 				(font
@@ -3695,7 +3728,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "WSLP12065L000FEA"
+		(property "MPN" "HoLLR1206-1W-5mR-1%"
 			(at 110.49 39.37 90)
 			(effects
 				(font
@@ -3704,7 +3737,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." "C844909"
+		(property "JLCPCB Part No." "C2988648"
 			(at 110.49 39.37 0)
 			(effects
 				(font
@@ -3909,7 +3942,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 110.49 72.39 0)
 			(effects
 				(font
@@ -3918,7 +3951,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 110.49 72.39 0)
 			(effects
 				(font
@@ -4255,7 +4288,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 68.58 62.23 0)
 			(effects
 				(font
@@ -4273,7 +4306,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 68.58 62.23 90)
 			(effects
 				(font
@@ -4436,7 +4469,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C60490"
 			(at 158.75 82.55 0)
 			(effects
 				(font
@@ -4446,6 +4479,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
 			(at 158.75 82.55 0)
 			(effects
 				(font
@@ -4766,7 +4808,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 93.98 66.04 0)
 			(effects
 				(font
@@ -4775,7 +4817,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 93.98 66.04 0)
 			(effects
 				(font

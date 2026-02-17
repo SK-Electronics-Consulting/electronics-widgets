@@ -4,7 +4,155 @@
 	(generator_version "9.0")
 	(uuid "74fafa03-a255-46ac-b2a3-3905ac0a0772")
 	(paper "A4")
+	(title_block
+		(title "USB 2.0 Hub for Gridifinity")
+		(date "2026-02-16")
+		(rev "2")
+		(company "SK Electronics Consulting LLC")
+	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -298,6 +446,156 @@
 					(at 0 -2.54 90)
 					(length 0.762)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Small_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start -0.762 0.254)
+					(mid 0 0.5696)
+					(end 0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -916,16 +1214,6 @@
 		)
 		(uuid "05e3dfd9-028e-4ce0-a3a0-d52fd340eade")
 	)
-	(text "Find JLC Parts\nCH334F: C5187527\nUSB Conn: C165948"
-		(exclude_from_sim no)
-		(at 41.91 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "37d3a5f5-193d-467f-92cf-3ac8a8a8b306")
-	)
 	(text "Future Versions:\n1. JTAG/SWD Option, in order of priority\n  1. RP2040 (check RP Debugger for development)\n  2. FT2232H (Check for SWD capability with OpenOCD 470Ohm Resistor hack)\n  3. NXP MCU-Tool (Just copy the schematic?)\n  4. Nordic? et al?"
 		(exclude_from_sim no)
 		(at 66.04 15.24 0)
@@ -984,6 +1272,12 @@
 		(uuid "74048db2-ebf1-4a34-bc58-51699b37b953")
 	)
 	(junction
+		(at 140.97 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ebb33c9-ca36-4f09-98b5-434eb37d03b0")
+	)
+	(junction
 		(at 207.01 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1002,6 +1296,12 @@
 		(uuid "9ebb5c16-4d35-45c0-8bd4-d72cac34521a")
 	)
 	(junction
+		(at 161.29 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4402349-ee6c-4f99-82d4-d1b89e0dd0b7")
+	)
+	(junction
 		(at 278.13 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1012,6 +1312,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7fbefe8-1246-49c4-82f3-da524dcb5e3d")
+	)
+	(junction
+		(at 118.11 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1c3fc8d-0871-4cf0-861a-9103b1faa73e")
 	)
 	(junction
 		(at 234.95 81.28)
@@ -1125,6 +1431,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 182.88) (xy 161.29 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7b2ca0-3c92-4602-92d8-b2b823253120")
+	)
+	(wire
+		(pts
 			(xy 220.98 151.13) (xy 220.98 152.4)
 		)
 		(stroke
@@ -1155,6 +1471,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 176.53) (xy 166.37 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3f5c3c-67cb-46f4-a7b0-5808924d4117")
+	)
+	(wire
+		(pts
 			(xy 212.09 140.97) (xy 214.63 140.97)
 		)
 		(stroke
@@ -1172,6 +1498,16 @@
 			(type default)
 		)
 		(uuid "1de4f767-1a96-46cc-a7dc-4c9b76cc8c0a")
+	)
+	(wire
+		(pts
+			(xy 146.05 184.15) (xy 140.97 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e575319-4e11-410b-896e-78723d24fb6e")
 	)
 	(wire
 		(pts
@@ -1265,6 +1601,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 182.88) (xy 140.97 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370c452f-be58-4d8e-abe5-721003d2dc96")
+	)
+	(wire
+		(pts
 			(xy 212.09 135.89) (xy 212.09 140.97)
 		)
 		(stroke
@@ -1343,6 +1689,26 @@
 		)
 		(uuid "42b104c7-6dfa-45ab-a3ec-c5799a878acb")
 	)
+	(wire
+		(pts
+			(xy 146.05 179.07) (xy 146.05 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443363a8-5f9a-458a-a59b-98d4a26c71b8")
+	)
+	(wire
+		(pts
+			(xy 146.05 176.53) (xy 146.05 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44653684-f493-47e9-91c0-3746fae3fe0a")
+	)
 	(bus
 		(pts
 			(xy 88.9 80.01) (xy 101.6 80.01)
@@ -1413,6 +1779,16 @@
 		)
 		(uuid "56882b9e-ba29-4f8a-9f87-b761892eb6e2")
 	)
+	(wire
+		(pts
+			(xy 166.37 179.07) (xy 166.37 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579b49a2-8eec-41a1-a032-d11055434be6")
+	)
 	(bus
 		(pts
 			(xy 50.8 66.04) (xy 62.23 66.04)
@@ -1435,6 +1811,26 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 179.07) (xy 123.19 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b23cee5-7ca7-4e92-bb76-c762b17d9339")
+	)
+	(wire
+		(pts
+			(xy 161.29 176.53) (xy 161.29 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e862373-a1b0-43df-9533-09192a8faffb")
+	)
+	(wire
+		(pts
 			(xy 217.17 152.4) (xy 217.17 153.67)
 		)
 		(stroke
@@ -1442,6 +1838,16 @@
 			(type default)
 		)
 		(uuid "5f8cc88e-4f18-4dc1-aa5a-aa8b84e9aa68")
+	)
+	(wire
+		(pts
+			(xy 140.97 176.53) (xy 140.97 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608e6383-1fc3-4f4b-9169-d67c4ba9f09f")
 	)
 	(bus
 		(pts
@@ -1472,6 +1878,16 @@
 			(type default)
 		)
 		(uuid "6b04f834-a530-4aa5-972a-9bdda55c1290")
+	)
+	(wire
+		(pts
+			(xy 161.29 184.15) (xy 161.29 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd345ff-9a2c-4260-b020-e23eab5da2cf")
 	)
 	(bus
 		(pts
@@ -1553,6 +1969,26 @@
 		)
 		(uuid "7dd959fa-428f-4c7d-912b-84778a34bc54")
 	)
+	(wire
+		(pts
+			(xy 123.19 184.15) (xy 118.11 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e820103-c5dc-48f5-944f-5d1a9c451e0e")
+	)
+	(wire
+		(pts
+			(xy 118.11 190.5) (xy 118.11 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8304acd9-bff5-4eb8-a9a4-86cea29efc0c")
+	)
 	(bus
 		(pts
 			(xy 240.03 25.4) (xy 218.44 25.4)
@@ -1573,6 +2009,26 @@
 		)
 		(uuid "8640a581-7cd6-4cd6-9f86-0ba196fb6d82")
 	)
+	(wire
+		(pts
+			(xy 140.97 190.5) (xy 140.97 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3b8d14-7e28-40fd-b930-cf65cfe873cd")
+	)
+	(wire
+		(pts
+			(xy 123.19 176.53) (xy 123.19 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da285b1-696e-45dc-a919-70a60428db16")
+	)
 	(bus
 		(pts
 			(xy 88.9 157.48) (xy 101.6 157.48)
@@ -1582,6 +2038,16 @@
 			(type default)
 		)
 		(uuid "9212a0d9-8927-49c7-8b8a-1ba607fc8bc8")
+	)
+	(wire
+		(pts
+			(xy 166.37 184.15) (xy 161.29 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9395b952-2bcd-4e83-9ed4-7e854e19acf5")
 	)
 	(bus
 		(pts
@@ -1635,6 +2101,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 171.45) (xy 118.11 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8495e15-5ac2-4324-b43f-f8a37eb7c320")
+	)
+	(wire
+		(pts
 			(xy 240.03 38.1) (xy 238.76 38.1)
 		)
 		(stroke
@@ -1652,6 +2128,16 @@
 			(type default)
 		)
 		(uuid "ab4d3358-1dd1-40af-9ad1-ea0eaa2f0178")
+	)
+	(wire
+		(pts
+			(xy 146.05 171.45) (xy 140.97 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3a73d0-bd5b-4cca-8af9-9fdfcf75f05b")
 	)
 	(bus
 		(pts
@@ -1682,6 +2168,16 @@
 			(type default)
 		)
 		(uuid "b2965c3f-eec3-43a4-bd94-6582efdc52dd")
+	)
+	(wire
+		(pts
+			(xy 140.97 184.15) (xy 140.97 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3378ce4-72cb-4dc3-9d42-2c682c2dc876")
 	)
 	(wire
 		(pts
@@ -1772,6 +2268,16 @@
 			(type default)
 		)
 		(uuid "c9593763-0878-4dce-bddc-1afb35f9c87a")
+	)
+	(wire
+		(pts
+			(xy 166.37 171.45) (xy 161.29 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caaf4980-0af6-4900-b905-44b577c5625f")
 	)
 	(bus
 		(pts
@@ -1893,6 +2399,16 @@
 		)
 		(uuid "e48dce55-d757-477f-97ec-a4ba8bb0f602")
 	)
+	(wire
+		(pts
+			(xy 118.11 184.15) (xy 118.11 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51ebdf3-79d4-4283-97bc-6822958b2cb1")
+	)
 	(bus
 		(pts
 			(xy 218.44 30.48) (xy 240.03 30.48)
@@ -1943,6 +2459,16 @@
 		)
 		(uuid "f60c0ba6-44fa-484f-93b1-525e34c476ca")
 	)
+	(wire
+		(pts
+			(xy 161.29 190.5) (xy 161.29 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65dff81-840b-451a-97fb-763e9cb68881")
+	)
 	(bus
 		(pts
 			(xy 88.9 166.37) (xy 101.6 166.37)
@@ -1952,6 +2478,26 @@
 			(type default)
 		)
 		(uuid "f8893817-e5c0-4583-94f8-dec455c9d846")
+	)
+	(wire
+		(pts
+			(xy 118.11 176.53) (xy 118.11 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed9f0a4-7dcc-4183-87a5-a153d16ff80c")
+	)
+	(wire
+		(pts
+			(xy 118.11 182.88) (xy 118.11 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7b530a-dd8d-4a1c-acca-e07991a4fd57")
 	)
 	(label "LED5{LED}"
 		(at 218.44 30.48 0)
@@ -2553,6 +3099,235 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 140.97 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "071fb5a5-4b55-43e6-b5a4-02b73e7145e6")
+		(property "Reference" "#PWR086"
+			(at 140.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8824757f-d9dc-4c9a-b1b3-17460d22acf0")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f7bd523-ccf4-435b-803b-43f132e06cfd")
+		(property "Reference" "#PWR087"
+			(at 161.29 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f318b1e-d3a0-469b-ad78-e544df0efa70")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 161.29 173.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "287e4ea3-70a6-4f6a-bb83-ddd4a977b284")
+		(property "Reference" "R38"
+			(at 158.496 172.974 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 158.75 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 161.29 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 161.29 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREGOUT" ""
+			(at 161.29 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C60488"
+			(at 161.29 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-072KL"
+			(at 161.29 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ab0abed-5570-4662-9351-98388818c3e4")
+		)
+		(pin "2"
+			(uuid "ab229511-4209-4d09-90b0-fdcb87f15142")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 238.76 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2646,6 +3421,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 118.11 173.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30fa5c7f-15f2-4cc0-9ac4-0dcb064f8f12")
+		(property "Reference" "R36"
+			(at 115.316 172.974 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 115.57 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 118.11 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 118.11 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREGOUT" ""
+			(at 118.11 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C60488"
+			(at 118.11 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-072KL"
+			(at 118.11 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b359e19f-8259-4897-9972-51b8835750ae")
+		)
+		(pin "2"
+			(uuid "caf8ff02-a1b7-4705-b869-a19465c18341")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 271.78 147.32 90)
 		(unit 1)
@@ -2721,6 +3591,244 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 118.11 187.96 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "430e59c3-0cba-4c3c-a179-4c8bd64109e1")
+		(property "Reference" "JP6"
+			(at 115.57 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 115.57 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 118.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 118.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 118.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 118.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 118.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREGOUT" ""
+			(at 118.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a89a3ad-dda1-489c-aca2-3e235a6d92c0")
+		)
+		(pin "2"
+			(uuid "809f2e12-3dc5-478e-8e9c-302890a2b3a6")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 118.11 180.34 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43fbe436-5c3b-4629-9bd3-eaee840b790c")
+		(property "Reference" "D11"
+			(at 116.586 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Green"
+			(at 116.586 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 118.11 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 118.11 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 118.11 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1005UGC"
+			(at 118.11 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 118.11 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 118.11 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C965793"
+			(at 118.11 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREGOUT" ""
+			(at 118.11 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 118.11 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f12ce5e8-a741-4dd8-a62a-6024e93d86e1")
+		)
+		(pin "2"
+			(uuid "0bf8dd51-49b3-44e7-ac6b-fb67c3e39709")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 207.01 139.7 0)
 		(unit 1)
@@ -2774,7 +3882,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C60490"
 			(at 207.01 139.7 0)
 			(effects
 				(font
@@ -2784,6 +3892,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 207.01 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
 			(at 207.01 139.7 0)
 			(effects
 				(font
@@ -2896,6 +4013,311 @@
 			(project "Gridfinity-USB-hub"
 				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 161.29 187.96 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "507e1dc2-8ab5-457b-ac10-8a9dbfa6a4a0")
+		(property "Reference" "JP8"
+			(at 158.75 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 158.75 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 161.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 161.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 161.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 161.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 161.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREGOUT" ""
+			(at 161.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17d5512b-0d69-478f-b830-449e14b37b7c")
+		)
+		(pin "2"
+			(uuid "470e41f9-a9ca-418c-ac94-028505f9bd00")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52e67b3b-6978-4d57-aa34-a8fece576682")
+		(property "Reference" "#PWR085"
+			(at 118.11 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39731361-1338-4f78-8012-b9f3c16b3b23")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 161.29 180.34 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6215aee9-04f7-40b9-880a-44fcfc049d80")
+		(property "Reference" "D13"
+			(at 159.766 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Green"
+			(at 159.766 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 161.29 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 161.29 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 161.29 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1005UGC"
+			(at 161.29 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 161.29 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 161.29 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C965793"
+			(at 161.29 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREGOUT" ""
+			(at 161.29 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 161.29 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de33b809-b327-40aa-a17b-70dbb98e1610")
+		)
+		(pin "2"
+			(uuid "41ea80f9-99aa-4289-b820-189da9387204")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -3110,6 +4532,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 140.97 180.34 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6be49d51-7114-4e24-b470-c57649f7dbb8")
+		(property "Reference" "D12"
+			(at 139.446 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Green"
+			(at 139.446 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 140.97 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1005UGC"
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C965793"
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREGOUT" ""
+			(at 140.97 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c8c670c-3ecd-4126-a43c-8049403d622f")
+		)
+		(pin "2"
+			(uuid "02e3a417-93f6-4bf2-9eeb-9d3a524d817c")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 217.17 153.67 0)
 		(unit 1)
@@ -3204,6 +4759,303 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 171.45 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7af19563-9272-46e1-a955-a442ee4a0bb5")
+		(property "Reference" "J15"
+			(at 169.672 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 173.99 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 171.45 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 171.45 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 171.45 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C492401"
+			(at 171.45 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PZ254V-11-02P"
+			(at 171.45 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d52be9a-3409-484b-a6cd-930ddbae4e8a")
+		)
+		(pin "2"
+			(uuid "a041b08e-04f1-49da-a3ba-975823e0e157")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 140.97 173.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb760ec5-330d-4693-a6d6-6fecdfb5898c")
+		(property "Reference" "R37"
+			(at 138.176 172.974 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 138.43 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREGOUT" ""
+			(at 140.97 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C60488"
+			(at 140.97 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-072KL"
+			(at 140.97 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54e5474e-3e61-4fd4-b7cc-dd4998e2b219")
+		)
+		(pin "2"
+			(uuid "b7802435-366d-4527-b1bb-0201130402f7")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 140.97 187.96 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "d394cdbb-018a-4813-9e1f-2f955e4d1742")
+		(property "Reference" "JP7"
+			(at 138.43 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 138.43 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 140.97 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 140.97 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 140.97 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 140.97 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 140.97 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREGOUT" ""
+			(at 140.97 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09834326-c765-4ec4-b605-c88e84590b6f")
+		)
+		(pin "2"
+			(uuid "657240f3-bd74-42f1-90c0-38145ee1fa0c")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 200.66 139.7 0)
 		(unit 1)
@@ -3257,7 +5109,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C60490"
 			(at 200.66 139.7 0)
 			(effects
 				(font
@@ -3267,6 +5119,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 200.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
 			(at 200.66 139.7 0)
 			(effects
 				(font
@@ -3492,6 +5353,200 @@
 			(project "4-layer_board"
 				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 151.13 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e92cb81d-474a-4cc6-893a-4c9500ac8e76")
+		(property "Reference" "J14"
+			(at 149.352 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 153.67 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 151.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 151.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 151.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C492401"
+			(at 151.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PZ254V-11-02P"
+			(at 151.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87218ad3-3a67-4bac-a55a-3051c20f1c6d")
+		)
+		(pin "2"
+			(uuid "c1e1a221-38e0-495d-86af-c28e87476154")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 128.27 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8bd6dc8-64b1-4f3d-8683-ef1a77747802")
+		(property "Reference" "J13"
+			(at 126.492 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 130.81 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C492401"
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PZ254V-11-02P"
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dc2c9ce-7a4a-486d-a65e-cd3f9ddb177b")
+		)
+		(pin "2"
+			(uuid "c7ee4cf0-3222-4e3b-b181-95273c6f8d95")
+		)
+		(instances
+			(project "Gridfinity-USB-hub"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772"
+					(reference "J13")
 					(unit 1)
 				)
 			)

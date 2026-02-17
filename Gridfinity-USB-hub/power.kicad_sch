@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "204d1ae8-eeaa-4128-9c7d-8fcbcf956d50")
 	(paper "A4")
+	(title_block
+		(title "USB 2.0 Hub for Gridifinity")
+		(date "2026-02-16")
+		(rev "2")
+		(company "SK Electronics Consulting LLC")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -1533,6 +1539,12 @@
 		(uuid "a6257b64-e96c-48d8-abf2-d659ad22fd06")
 	)
 	(junction
+		(at 153.67 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c05f49ca-ef7f-4111-9725-40e084c3b9b3")
+	)
+	(junction
 		(at 138.43 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1931,7 +1943,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "90"
+		(property "FT Rotation Offset" ""
 			(at 110.49 91.44 0)
 			(effects
 				(font
@@ -1967,7 +1979,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." "C51118"
+		(property "JLCPCB Part No." "C23380830"
 			(at 110.49 91.44 0)
 			(effects
 				(font
@@ -2233,7 +2245,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "44ce2911-7d1f-46b3-9502-474c16fdc612")
 		(property "Reference" "JP5"
 			(at 144.78 86.36 0)
@@ -2517,7 +2529,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 93.98 92.71 0)
 			(effects
 				(font
@@ -2527,6 +2539,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 93.98 92.71 0)
 			(effects
 				(font
@@ -2612,6 +2633,74 @@
 			(project "Gridfinity-USB-hub"
 				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772/0b8e50e6-cc3e-49b7-8502-b97225662dee"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 153.67 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95581759-c71a-4a54-902d-c37e9a1bb88a")
+		(property "Reference" "#FLG08"
+			(at 155.575 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 157.48 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "729a3127-56cf-4450-a77e-595a76d9df6f")
+		)
+		(instances
+			(project ""
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772/0b8e50e6-cc3e-49b7-8502-b97225662dee"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -2984,7 +3073,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No." ""
+		(property "JLCPCB Part No." "C77020"
 			(at 125.73 92.71 0)
 			(effects
 				(font
@@ -2994,6 +3083,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREGOUT" ""
+			(at 125.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
 			(at 125.73 92.71 0)
 			(effects
 				(font
@@ -3072,6 +3170,33 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 69.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C492401"
+			(at 69.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PZ254V-11-02P"
+			(at 69.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a90b8c7a-4f1f-40df-96e3-a0e4afca9988")
 		)
@@ -3134,6 +3259,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C492401"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PZ254V-11-02P"
 			(at 143.51 92.71 0)
 			(effects
 				(font
