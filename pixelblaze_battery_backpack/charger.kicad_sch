@@ -10,7 +10,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 35.56 0)
+				(at -7.62 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,7 +18,7 @@
 				)
 			)
 			(property "Value" "BQ25798"
-				(at 2.54 35.56 0)
+				(at 2.54 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -43,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "I2C Controlled 1-4 Cell (Li-Ion / Li-Polymer) 5A Fast Charger, USB BC1.2 Detection, 3.9..28V VBUS, 3.840..4.608V charge voltage range, 750kHz..1.5 MHz VQFN-29"
+			(property "Description" "I2C controlled, 5A Buck-Boost battery charger (1-4 cell, Li-Ion / Li-Polymer), USB BC1.2 / HVDCP detection, 3.6..24V VBUS, 3..18.8V charge voltage regulation, 0.75..1.5 MHz, VQFN-29 (Texas RQM0029A)"
 				(at 0 -58.42 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "1-4-cell Battery-Charger Power-Path-Management OTG"
+			(property "ki_keywords" "Texas-Instruments fast-charger Power-Path-Management USB-OTG BQ25798RQMR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,7 +61,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*VQFN*4x4mm*P0.4mm*"
+			(property "ki_fp_filters" "*VQFN*4x4mm?P0.4mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -121,7 +121,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 22.86 0)
 					(length 2.54)
 					(name "VAC1"
@@ -142,7 +142,7 @@
 				(pin passive line
 					(at -10.16 20.32 0)
 					(length 2.54)
-					(name "ACDRC1"
+					(name "ACDRV1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -157,7 +157,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -10.16 15.24 0)
 					(length 2.54)
 					(name "VAC2"
@@ -319,7 +319,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at -10.16 -20.32 0)
 					(length 2.54)
 					(name "ILIM_HIZ"
@@ -355,7 +355,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at -10.16 -27.94 0)
 					(length 2.54)
 					(name "TS"
@@ -409,7 +409,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 10.16 22.86 180)
 					(length 2.54)
 					(name "BTST1"
@@ -463,7 +463,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "BTST2"
@@ -517,7 +517,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 10.16 -12.7 180)
 					(length 2.54)
 					(name "SYS"
@@ -535,7 +535,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 10.16 -17.78 180)
 					(length 2.54)
 					(name "BAT"
@@ -572,7 +572,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin output line
 					(at 10.16 -22.86 180)
 					(length 2.54)
 					(name "SDRV"
@@ -590,7 +590,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin input line
 					(at 10.16 -27.94 180)
 					(length 2.54)
 					(name "BATP"
@@ -1696,107 +1696,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VBUS"
 			(power)
 			(pin_numbers
@@ -2050,23 +1949,13 @@
 	)
 	(text "Battery Contacts"
 		(exclude_from_sim no)
-		(at 172.72 139.7 0)
+		(at 177.8 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "645e5c0b-77c1-426b-aeb2-a4e68eb050bb")
-	)
-	(text "${ERC_ERROR SDRV Cap}Add 1nF cap to SDRV Pin"
-		(exclude_from_sim no)
-		(at 220.98 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6761168b-bf48-46d9-9bed-270fa30b2c06")
 	)
 	(text "I2C Address: 0x6B"
 		(exclude_from_sim no)
@@ -2079,10 +1968,16 @@
 		(uuid "9946f56d-7205-4729-8df3-f0feaa5e1edd")
 	)
 	(junction
-		(at 162.56 121.92)
+		(at 167.64 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08e93c41-0b2f-4452-8373-440ac343c295")
+	)
+	(junction
+		(at 157.48 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "093f0e8f-cdcf-42ee-9fdc-2ceeced8aa10")
 	)
 	(junction
 		(at 106.68 66.04)
@@ -2103,7 +1998,7 @@
 		(uuid "4324832f-a11b-43f5-97d3-345fe5408abe")
 	)
 	(junction
-		(at 177.8 101.6)
+		(at 182.88 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d817e7d-e38a-4385-9316-c2ad92f40263")
@@ -2121,16 +2016,10 @@
 		(uuid "566d29d9-1082-4f8a-b1f3-6582bb3d103e")
 	)
 	(junction
-		(at 187.96 120.65)
+		(at 193.04 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6652a2af-834d-4e38-ad8c-7d1bc4ff0497")
-	)
-	(junction
-		(at 198.12 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7011e5c4-088c-4f8c-8a5d-476e1e77f43d")
 	)
 	(junction
 		(at 106.68 128.27)
@@ -2151,13 +2040,13 @@
 		(uuid "a1f2e742-a548-4dc1-8ba8-1d0288f17391")
 	)
 	(junction
-		(at 182.88 113.03)
+		(at 187.96 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a64d6354-6969-45db-8bdf-f0a9383d90d2")
 	)
 	(junction
-		(at 191.77 113.03)
+		(at 196.85 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcba9c17-d783-44eb-9753-a37f4c87c59b")
@@ -2195,10 +2084,6 @@
 	(no_connect
 		(at 134.62 88.9)
 		(uuid "1def13a7-dde0-4e1f-8bac-74213c64cbaf")
-	)
-	(no_connect
-		(at 154.94 116.84)
-		(uuid "564676ec-08e2-4b95-ad68-1b4321df33e0")
 	)
 	(no_connect
 		(at 134.62 86.36)
@@ -2364,16 +2249,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 111.76) (xy 162.56 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "374d6f45-900e-4320-82d9-0207f25c7a61")
-	)
-	(wire
-		(pts
 			(xy 121.92 109.22) (xy 134.62 109.22)
 		)
 		(stroke
@@ -2384,7 +2259,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 101.6) (xy 177.8 101.6)
+			(xy 189.23 101.6) (xy 182.88 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2394,7 +2269,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 125.73) (xy 162.56 130.81)
+			(xy 167.64 125.73) (xy 167.64 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2434,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 121.92) (xy 162.56 111.76)
+			(xy 167.64 121.92) (xy 167.64 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2484,7 +2359,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 120.65) (xy 182.88 119.38)
+			(xy 187.96 120.65) (xy 187.96 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2494,7 +2369,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 123.19) (xy 162.56 121.92)
+			(xy 167.64 123.19) (xy 167.64 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2544,7 +2419,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 130.81) (xy 163.83 130.81)
+			(xy 167.64 130.81) (xy 168.91 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2594,7 +2469,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 107.95) (xy 177.8 109.22)
+			(xy 182.88 107.95) (xy 182.88 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2614,7 +2489,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 111.76) (xy 198.12 109.22)
+			(xy 203.2 109.22) (xy 203.2 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2624,7 +2499,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 113.03) (xy 191.77 113.03)
+			(xy 203.2 113.03) (xy 196.85 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2634,7 +2509,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 121.92) (xy 156.21 121.92)
+			(xy 154.94 121.92) (xy 161.29 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2724,7 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 113.03) (xy 182.88 114.3)
+			(xy 187.96 113.03) (xy 187.96 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2754,7 +2629,7 @@
 	)
 	(polyline
 		(pts
-			(xy 168.91 119.38) (xy 175.26 119.38)
+			(xy 173.99 119.38) (xy 180.34 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2764,7 +2639,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 113.03) (xy 182.88 113.03)
+			(xy 196.85 113.03) (xy 187.96 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2784,13 +2659,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 113.03) (xy 172.72 106.68)
+			(xy 177.8 113.03) (xy 177.8 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8a3e54ca-3b48-420d-8756-077d34b05550")
+	)
+	(wire
+		(pts
+			(xy 157.48 111.76) (xy 167.64 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8099be-6ef3-41af-8658-9cb867e6e262")
 	)
 	(wire
 		(pts
@@ -2814,13 +2699,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 113.03) (xy 191.77 114.3)
+			(xy 196.85 113.03) (xy 196.85 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99803896-afcf-4fdc-8434-db54a252cb2a")
+	)
+	(wire
+		(pts
+			(xy 154.94 116.84) (xy 157.48 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0afd391-7b95-4ec2-98d4-adf0133dd2e1")
 	)
 	(wire
 		(pts
@@ -2834,7 +2729,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 120.65) (xy 187.96 120.65)
+			(xy 196.85 120.65) (xy 193.04 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2864,7 +2759,7 @@
 	)
 	(polyline
 		(pts
-			(xy 168.91 137.16) (xy 175.26 137.16)
+			(xy 173.99 137.16) (xy 180.34 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2874,17 +2769,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 101.6) (xy 177.8 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afe55e9d-8dc9-42ae-8359-a6e946b7d1ea")
-	)
-	(wire
-		(pts
-			(xy 161.29 121.92) (xy 162.56 121.92)
+			(xy 166.37 121.92) (xy 167.64 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2904,7 +2789,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 133.35) (xy 162.56 133.35)
+			(xy 168.91 133.35) (xy 167.64 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2924,7 +2809,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 123.19) (xy 163.83 123.19)
+			(xy 167.64 123.19) (xy 168.91 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2941,16 +2826,6 @@
 			(type default)
 		)
 		(uuid "ba3fefbf-8511-4da4-ac3c-106eb06bde83")
-	)
-	(wire
-		(pts
-			(xy 172.72 106.68) (xy 154.94 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb379307-fc4a-4eec-8617-aa6a4321469a")
 	)
 	(wire
 		(pts
@@ -2994,7 +2869,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 119.38) (xy 191.77 120.65)
+			(xy 196.85 119.38) (xy 196.85 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3004,7 +2879,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 137.16) (xy 162.56 133.35)
+			(xy 167.64 137.16) (xy 167.64 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3024,7 +2899,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 113.03) (xy 182.88 113.03)
+			(xy 177.8 113.03) (xy 187.96 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3034,13 +2909,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 113.03) (xy 198.12 111.76)
+			(xy 154.94 101.6) (xy 182.88 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e027d78f-fc86-4e64-b55b-c4a99ca6584e")
+		(uuid "e5abdd03-ea1b-4df0-be6c-6f8d4925505d")
+	)
+	(wire
+		(pts
+			(xy 154.94 111.76) (xy 157.48 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ce09ad-2f2e-4500-94d0-de183898e1e3")
 	)
 	(wire
 		(pts
@@ -3054,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 125.73) (xy 162.56 125.73)
+			(xy 168.91 125.73) (xy 167.64 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3074,7 +2959,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 120.65) (xy 187.96 120.65)
+			(xy 187.96 120.65) (xy 193.04 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3104,13 +2989,23 @@
 	)
 	(polyline
 		(pts
-			(xy 175.26 119.38) (xy 175.26 137.16)
+			(xy 180.34 119.38) (xy 180.34 137.16)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "f3188bd9-768c-4377-a354-bb739de6a878")
+	)
+	(wire
+		(pts
+			(xy 154.94 106.68) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42e2af9-989f-42a5-95bc-5fb5e3d3d0d5")
 	)
 	(wire
 		(pts
@@ -3164,7 +3059,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 102.87) (xy 177.8 101.6)
+			(xy 182.88 102.87) (xy 182.88 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3223,7 +3118,7 @@
 		(uuid "89cf2fbb-d531-422a-8b6e-595439fc68bd")
 	)
 	(label "REGN"
-		(at 184.15 101.6 180)
+		(at 189.23 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3243,7 +3138,7 @@
 		(uuid "dfa506df-a099-44d8-a494-13384c61264b")
 	)
 	(label "BATT+"
-		(at 156.21 111.76 0)
+		(at 161.29 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3431,8 +3326,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 157.48 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "120fa276-dffa-47e8-900e-6c1fa9169f4c")
+		(property "Reference" "C37"
+			(at 160.02 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 160.02 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C106205"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX7R9BB102"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "375267d2-2013-4954-9364-bdd2c76318c9")
+		)
+		(pin "2"
+			(uuid "9e5098c3-7186-41f3-ac36-b69e86ba6d26")
+		)
+		(instances
+			(project ""
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772/45be3db2-f6c3-434e-aedf-e036aca5b26f"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 168.91 125.73 0)
+		(at 173.99 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3440,7 +3423,7 @@
 		(dnp no)
 		(uuid "20c8dec8-28b7-48f7-957c-63d0a43e8e8f")
 		(property "Reference" "J2"
-			(at 171.45 125.73 0)
+			(at 176.53 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3432,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 171.45 126.9999 0)
+			(at 176.53 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,8 +3441,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Battery:BatteryClip_MYoung_MY-18650-01"
-			(at 168.91 125.73 0)
+		(property "Footprint" "Battery:BatteryClip_Keystone_54_D16-19mm"
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,7 +3451,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2979183.pdf"
-			(at 168.91 125.73 0)
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +3460,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 168.91 125.73 0)
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3469,7 @@
 			)
 		)
 		(property "MPN" "MY-18650-01"
-			(at 168.91 125.73 0)
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3478,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 168.91 125.73 0)
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,7 +3487,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 168.91 125.73 0)
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,7 +3496,7 @@
 			)
 		)
 		(property "JLCPCB Part No." "C2979183"
-			(at 168.91 125.73 0)
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3505,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 168.91 125.73 0)
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,7 +3514,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 168.91 125.73 0)
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,7 +3523,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 168.91 125.73 0)
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3532,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 168.91 125.73 0)
+			(at 173.99 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +3596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "I2C Controlled Single Cell (Li-Ion / Li-Polymer) 5A Fast Charger with MaxCharge, USB BC1.2 Detection, 3.9..14V VBUS, 3.840..4.608V charge voltage range, 1.5 MHz (buck mode) and 500 kHz /1.5 MHz (boost mode), WQFN-24"
+		(property "Description" "I2C controlled, 5A Buck-Boost battery charger (1-4 cell, Li-Ion / Li-Polymer), USB BC1.2 / HVDCP detection, 3.6..24V VBUS, 3..18.8V charge voltage regulation, 0.75..1.5 MHz, VQFN-29 (Texas RQM0029A)"
 			(at 144.78 152.4 0)
 			(effects
 				(font
@@ -3886,7 +3869,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 177.8 105.41 0)
+		(at 182.88 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3895,7 +3878,7 @@
 		(fields_autoplaced yes)
 		(uuid "37955b77-0726-4f7c-808f-4b5cdae4a410")
 		(property "Reference" "C3"
-			(at 180.34 104.1462 0)
+			(at 185.42 104.1462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +3887,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 180.34 106.6862 0)
+			(at 185.42 106.6862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +3896,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 177.8 105.41 0)
+			(at 182.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +3905,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C194427.pdf"
-			(at 177.8 105.41 0)
+			(at 182.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +3914,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 177.8 105.41 0)
+			(at 182.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +3923,7 @@
 			)
 		)
 		(property "JLCPCB Part No." "C194427"
-			(at 177.8 105.41 0)
+			(at 182.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +3932,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA106MA73D"
-			(at 177.8 105.41 0)
+			(at 182.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +3941,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 177.8 105.41 0)
+			(at 182.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +3950,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 177.8 105.41 0)
+			(at 182.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +3959,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 177.8 105.41 0)
+			(at 182.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +3968,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 177.8 105.41 0)
+			(at 182.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +4791,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 168.91 123.19 0)
+		(at 173.99 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4816,7 +4799,7 @@
 		(dnp no)
 		(uuid "71c892f3-77dd-48ee-9ca5-4aed338c6098")
 		(property "Reference" "J1"
-			(at 171.45 123.19 0)
+			(at 176.53 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4808,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 171.45 124.4599 0)
+			(at 176.53 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,8 +4817,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Battery:BatteryClip_MYoung_MY-18650-01"
-			(at 168.91 123.19 0)
+		(property "Footprint" "Battery:BatteryClip_Keystone_54_D16-19mm"
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,7 +4827,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2979183.pdf"
-			(at 168.91 123.19 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +4836,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 168.91 123.19 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +4845,7 @@
 			)
 		)
 		(property "MPN" "MY-18650-01"
-			(at 168.91 123.19 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +4854,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 168.91 123.19 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +4863,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 168.91 123.19 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,7 +4872,7 @@
 			)
 		)
 		(property "JLCPCB Part No." "C2979183"
-			(at 168.91 123.19 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +4881,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 168.91 123.19 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +4890,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 168.91 123.19 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +4899,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 168.91 123.19 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +4908,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 168.91 123.19 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +4930,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 198.12 109.22 0)
+		(at 203.2 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4956,7 +4939,7 @@
 		(fields_autoplaced yes)
 		(uuid "74403775-9fbd-45c4-a9b0-51133a708cd0")
 		(property "Reference" "#PWR02"
-			(at 198.12 113.03 0)
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +4948,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 198.12 104.14 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +4956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 109.22 0)
+			(at 203.2 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +4965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 109.22 0)
+			(at 203.2 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +4974,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 198.12 109.22 0)
+			(at 203.2 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +4996,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 137.16 0)
+		(at 167.64 137.16 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5023,7 +5006,7 @@
 		(fields_autoplaced yes)
 		(uuid "7da4ef2c-429b-40ce-8e77-4b334db7c4ff")
 		(property "Reference" "#PWR01"
-			(at 162.56 143.51 0)
+			(at 167.64 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +5015,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 142.24 0)
+			(at 167.64 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +5024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,7 +5033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +5042,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,7 +5051,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 162.56 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +5060,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 162.56 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,7 +5069,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 162.56 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +5091,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 168.91 133.35 0)
+		(at 173.99 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5116,7 +5099,7 @@
 		(dnp no)
 		(uuid "8dc308c1-51b7-456f-bcb0-b5a4e0cbf1ba")
 		(property "Reference" "J4"
-			(at 171.45 133.35 0)
+			(at 176.53 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5108,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 171.45 134.6199 0)
+			(at 176.53 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,8 +5117,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Battery:BatteryClip_MYoung_MY-18650-01"
-			(at 168.91 133.35 0)
+		(property "Footprint" "Battery:BatteryClip_Keystone_54_D16-19mm"
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5127,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2979183.pdf"
-			(at 168.91 133.35 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5136,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 168.91 133.35 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5145,7 @@
 			)
 		)
 		(property "MPN" "MY-18650-01"
-			(at 168.91 133.35 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5154,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 168.91 133.35 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5163,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 168.91 133.35 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +5172,7 @@
 			)
 		)
 		(property "JLCPCB Part No." "C2979183"
-			(at 168.91 133.35 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +5181,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 168.91 133.35 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,7 +5190,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 168.91 133.35 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,7 +5199,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 168.91 133.35 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,7 +5208,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 168.91 133.35 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,7 +5230,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 158.75 121.92 90)
+		(at 163.83 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5255,7 +5238,7 @@
 		(dnp no)
 		(uuid "93940288-8c1a-4b19-9990-a49ef906f205")
 		(property "Reference" "R8"
-			(at 158.75 119.38 90)
+			(at 163.83 119.38 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5263,7 +5246,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 158.75 124.46 90)
+			(at 163.83 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5254,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 158.75 121.92 0)
+			(at 163.83 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 121.92 0)
+			(at 163.83 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +5272,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 158.75 121.92 0)
+			(at 163.83 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +5281,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07100RL"
-			(at 158.75 121.92 0)
+			(at 163.83 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +5290,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 158.75 121.92 0)
+			(at 163.83 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5299,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 158.75 121.92 0)
+			(at 163.83 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +5308,7 @@
 			)
 		)
 		(property "JLCPCB Part No." "C106232"
-			(at 158.75 121.92 90)
+			(at 163.83 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5317,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 158.75 121.92 90)
+			(at 163.83 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5326,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 158.75 121.92 90)
+			(at 163.83 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +5335,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 158.75 121.92 90)
+			(at 163.83 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,7 +5344,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 158.75 121.92 90)
+			(at 163.83 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,7 +5747,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 191.77 116.84 0)
+		(at 196.85 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5773,7 +5756,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a65849b-01fb-4251-aea9-1e2df1d45885")
 		(property "Reference" "C2"
-			(at 194.31 115.5762 0)
+			(at 199.39 115.5762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5782,7 +5765,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 194.31 118.1162 0)
+			(at 199.39 118.1162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5791,7 +5774,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 191.77 116.84 0)
+			(at 196.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +5783,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C194427.pdf"
-			(at 191.77 116.84 0)
+			(at 196.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +5792,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 191.77 116.84 0)
+			(at 196.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,7 +5801,7 @@
 			)
 		)
 		(property "JLCPCB Part No." "C194427"
-			(at 191.77 116.84 0)
+			(at 196.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +5810,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA106MA73D"
-			(at 191.77 116.84 0)
+			(at 196.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,7 +5819,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 191.77 116.84 0)
+			(at 196.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,7 +5828,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 191.77 116.84 0)
+			(at 196.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +5837,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 191.77 116.84 0)
+			(at 196.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +5846,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 191.77 116.84 0)
+			(at 196.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +5871,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 182.88 116.84 0)
+		(at 187.96 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5897,7 +5880,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ca1fcf1-d059-46e3-937d-7d0475d9fe1a")
 		(property "Reference" "C1"
-			(at 185.42 115.5762 0)
+			(at 190.5 115.5762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +5889,7 @@
 			)
 		)
 		(property "Value" "0.1"
-			(at 185.42 118.1162 0)
+			(at 190.5 118.1162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,7 +5898,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 182.88 116.84 0)
+			(at 187.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5924,7 +5907,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C162178.pdf"
-			(at 182.88 116.84 0)
+			(at 187.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +5916,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 182.88 116.84 0)
+			(at 187.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +5925,7 @@
 			)
 		)
 		(property "JLCPCB Part No." "C162178"
-			(at 182.88 116.84 0)
+			(at 187.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,7 +5934,7 @@
 			)
 		)
 		(property "MPN" "GRM155R62A104KE14D"
-			(at 182.88 116.84 0)
+			(at 187.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +5943,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 182.88 116.84 0)
+			(at 187.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,7 +5952,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 182.88 116.84 0)
+			(at 187.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +5961,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 182.88 116.84 0)
+			(at 187.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5987,7 +5970,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 182.88 116.84 0)
+			(at 187.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6005,100 +5988,6 @@
 			(project "pixelblaze_battery_backpack"
 				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772/45be3db2-f6c3-434e-aedf-e036aca5b26f"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 198.12 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1258994-8046-4eb0-8ec9-44ff8ad66e96")
-		(property "Reference" "#FLG04"
-			(at 200.025 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 203.2 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 198.12 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 198.12 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FT Position Offset" ""
-			(at 198.12 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FT Rotation Offset" ""
-			(at 198.12 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60d814ee-ca1e-445a-b842-38b2e109dcbd")
-		)
-		(instances
-			(project "pixelblaze_battery_backpack"
-				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772/45be3db2-f6c3-434e-aedf-e036aca5b26f"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -6436,7 +6325,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 120.65 0)
+		(at 193.04 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6445,7 +6334,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbafe48d-d59b-40ed-ac55-15116aa06495")
 		(property "Reference" "#PWR011"
-			(at 187.96 127 0)
+			(at 193.04 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +6343,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 125.73 0)
+			(at 193.04 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,7 +6352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 120.65 0)
+			(at 193.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,7 +6361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 120.65 0)
+			(at 193.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,7 +6370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 120.65 0)
+			(at 193.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6490,7 +6379,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 187.96 120.65 0)
+			(at 193.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6499,7 +6388,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 187.96 120.65 0)
+			(at 193.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6508,7 +6397,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 187.96 120.65 0)
+			(at 193.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +6929,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 168.91 130.81 0)
+		(at 173.99 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7048,7 +6937,7 @@
 		(dnp no)
 		(uuid "efb7fbed-3de0-4594-af84-a4bba2308b99")
 		(property "Reference" "J3"
-			(at 171.45 130.81 0)
+			(at 176.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7057,7 +6946,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 171.45 132.0799 0)
+			(at 176.53 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,8 +6955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Battery:BatteryClip_MYoung_MY-18650-01"
-			(at 168.91 130.81 0)
+		(property "Footprint" "Battery:BatteryClip_Keystone_54_D16-19mm"
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +6965,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2979183.pdf"
-			(at 168.91 130.81 0)
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +6974,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 168.91 130.81 0)
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +6983,7 @@
 			)
 		)
 		(property "MPN" "MY-18650-01"
-			(at 168.91 130.81 0)
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +6992,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 168.91 130.81 0)
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7001,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 168.91 130.81 0)
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +7010,7 @@
 			)
 		)
 		(property "JLCPCB Part No." "C2979183"
-			(at 168.91 130.81 0)
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +7019,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 168.91 130.81 0)
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +7028,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 168.91 130.81 0)
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,7 +7037,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 168.91 130.81 0)
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,7 +7046,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 168.91 130.81 0)
+			(at 173.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7068,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 109.22 0)
+		(at 182.88 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7188,7 +7077,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8f7e621-b23c-459a-bb85-55883b6696f5")
 		(property "Reference" "#PWR012"
-			(at 177.8 115.57 0)
+			(at 182.88 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7086,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 114.3 0)
+			(at 182.88 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +7095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 109.22 0)
+			(at 182.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 109.22 0)
+			(at 182.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,7 +7113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 109.22 0)
+			(at 182.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +7122,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 177.8 109.22 0)
+			(at 182.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7131,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 177.8 109.22 0)
+			(at 182.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,7 +7140,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 177.8 109.22 0)
+			(at 182.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

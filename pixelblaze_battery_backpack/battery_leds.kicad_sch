@@ -345,46 +345,203 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Small_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start -0.762 0.254)
+					(mid 0 0.5696)
+					(end 0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED:SK6812MINI-E"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 4.318 6.35 0)
+				(at 5.08 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right bottom)
 				)
 			)
 			(property "Value" "SK6812MINI-E"
-				(at 8.382 -6.35 0)
+				(at 1.27 -5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-				(at 32.258 -8.382 0)
+				(at 1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
-				(at 24.638 -10.414 0)
+				(at 2.54 -9.525 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
-				(at 18.288 -12.7 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -392,7 +549,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -421,17 +578,6 @@
 				)
 			)
 			(symbol "SK6812MINI-E_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -516,6 +662,17 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 			)
 			(symbol "SK6812MINI-E_1_1"
 				(pin input line
@@ -557,7 +714,7 @@
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "GND"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1100,6 +1257,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SK6812MINI-E_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6812MINI-E"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI-E_1_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_1_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_1_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1327,6 +1739,24 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 69.85 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58977b96-05a2-4430-8858-ed410a33d95d")
+	)
+	(junction
+		(at 232.41 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d899139-161b-40a3-bc5b-549764ddbfc5")
+	)
+	(junction
+		(at 27.94 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f110fe25-b4c7-454f-96cf-223ba0e5e231")
+	)
 	(no_connect
 		(at 39.37 41.91)
 		(uuid "31bc0a79-b969-4966-b3ae-9ab3b6fb4f82")
@@ -1365,6 +1795,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 27.94) (xy 27.94 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee02f23-e3ee-4b85-988a-c4f7389f574d")
+	)
+	(wire
+		(pts
 			(xy 57.15 104.14) (xy 63.5 104.14)
 		)
 		(stroke
@@ -1395,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 39.37) (xy 26.67 39.37)
+			(xy 30.48 39.37) (xy 26.67 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1425,7 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 109.22) (xy 73.66 109.22)
+			(xy 57.15 109.22) (xy 69.85 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1452,6 +1892,26 @@
 			(type default)
 		)
 		(uuid "2722e579-99be-452b-a371-e286ad2099e2")
+	)
+	(wire
+		(pts
+			(xy 232.41 71.12) (xy 232.41 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2fcf36-1aaa-4bcb-bd51-05b02445afaf")
+	)
+	(wire
+		(pts
+			(xy 232.41 44.45) (xy 232.41 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3069213d-afcd-48ee-8a23-f5627d74c69f")
 	)
 	(wire
 		(pts
@@ -1605,6 +2065,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 77.47) (xy 69.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69eb9132-49ae-45ec-b64e-1a8ffdcefc06")
+	)
+	(wire
+		(pts
 			(xy 134.62 100.33) (xy 134.62 101.6)
 		)
 		(stroke
@@ -1685,7 +2155,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 39.37) (xy 27.94 38.1)
+			(xy 69.85 77.47) (xy 69.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897d7437-b1e0-454a-8eb9-f8e9b97532ad")
+	)
+	(wire
+		(pts
+			(xy 30.48 39.37) (xy 30.48 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1755,6 +2235,26 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 19.05) (xy 27.94 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0d471e-1620-49a2-857f-b356a70644c4")
+	)
+	(wire
+		(pts
+			(xy 232.41 44.45) (xy 234.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de47f74-1a83-42be-9bd6-842471114879")
+	)
+	(wire
+		(pts
 			(xy 104.14 35.56) (xy 104.14 36.83)
 		)
 		(stroke
@@ -1762,6 +2262,16 @@
 			(type default)
 		)
 		(uuid "a355afdf-bae6-4967-9488-3dd5241e0290")
+	)
+	(wire
+		(pts
+			(xy 27.94 44.45) (xy 43.18 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ae8a91-d149-44d3-bfdb-96b4c7835414")
 	)
 	(wire
 		(pts
@@ -1805,6 +2315,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 109.22) (xy 73.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a4852a-8ceb-4e3b-a116-a6c3b97becc0")
+	)
+	(wire
+		(pts
 			(xy 63.5 111.76) (xy 63.5 113.03)
 		)
 		(stroke
@@ -1815,7 +2335,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 44.45) (xy 234.95 44.45)
+			(xy 229.87 44.45) (xy 232.41 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1835,7 +2355,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 44.45) (xy 43.18 44.45)
+			(xy 26.67 44.45) (xy 27.94 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1963,6 +2483,17 @@
 		)
 		(uuid "fb1bd50a-edf7-4d33-9f75-df78e13e2208")
 	)
+	(hierarchical_label "Pixel_Data_In"
+		(shape input)
+		(at 27.94 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0171d97-0ae5-490b-8e3f-2b298f841712")
+	)
 	(symbol
 		(lib_id "LED:WS2812B-2020")
 		(at 186.69 44.45 0)
@@ -2035,7 +2566,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 186.69 44.45 0)
 			(effects
 				(font
@@ -2182,7 +2713,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 222.25 44.45 0)
 			(effects
 				(font
@@ -2259,7 +2790,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 27.94 38.1 0)
+		(at 30.48 38.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2269,7 +2800,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b0f03c6-437c-4907-84ed-d80091269a39")
 		(property "Reference" "#PWR034"
-			(at 27.94 41.91 0)
+			(at 30.48 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +2809,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 27.94 33.02 0)
+			(at 30.48 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +2817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 38.1 0)
+			(at 30.48 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 38.1 0)
+			(at 30.48 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,7 +2835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 27.94 38.1 0)
+			(at 30.48 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +3430,7 @@
 		(at 226.06 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1ed9ba59-3921-4be8-9dfb-be6890b59221")
@@ -2958,7 +3489,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Position Offset" ""
+		(property "FT Position Offset" "0,-0.8125"
 			(at 226.06 106.68 0)
 			(effects
 				(font
@@ -2967,7 +3498,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 226.06 106.68 0)
 			(effects
 				(font
@@ -3208,7 +3739,7 @@
 		(at 240.03 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "29affcfe-5a86-4774-940f-81c3f85450ce")
@@ -3304,6 +3835,24 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 240.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.8125"
+			(at 240.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 240.03 41.91 0)
 			(effects
 				(font
@@ -4292,6 +4841,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SK6812MINI-E_1")
 		(lib_id "LED:SK6812MINI-E")
 		(at 168.91 44.45 0)
 		(unit 1)
@@ -4336,6 +4886,24 @@
 		)
 		(property "Description" "RGB LED with integrated controller"
 			(at 187.198 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C5149201"
+			(at 168.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK6812MINI-E"
+			(at 168.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,6 +5278,42 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C3647024"
+			(at 116.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-4020RGBC-2812B"
+			(at 116.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.75"
+			(at 116.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 116.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "4b46e7f5-2713-4954-9305-8520715eabc4")
 		)
@@ -4982,6 +5586,42 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C3647024"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-4020RGBC-2812B"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.75"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "17e357a4-4085-44e3-8b16-aca384f7adbf")
 		)
@@ -4998,6 +5638,76 @@
 			(project "pixelblaze_battery_backpack"
 				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772/b70c2f0a-4e33-4cfe-b000-1a538201a71d"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 27.94 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "836f0bcf-346c-4390-b7f1-81dd9437e285")
+		(property "Reference" "JP1"
+			(at 29.21 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 30.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 27.94 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 27.94 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9e21101-9726-4c05-83ce-32eddebc36ff")
+		)
+		(pin "2"
+			(uuid "7ebe2661-7717-4bca-9fe4-944c2ec9a130")
+		)
+		(instances
+			(project ""
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772/b70c2f0a-4e33-4cfe-b000-1a538201a71d"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -5170,7 +5880,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 86.36 44.45 0)
 			(effects
 				(font
@@ -5335,6 +6045,42 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C3647024"
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-4020RGBC-2812B"
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.75"
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "981b0d3d-2897-45ee-a419-c15d077336f5")
 		)
@@ -5486,7 +6232,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5583,6 +6329,24 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 52.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.8125"
+			(at 52.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 52.07 106.68 0)
 			(effects
 				(font
@@ -5694,6 +6458,42 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 170.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C3647024"
+			(at 170.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-4020RGBC-2812B"
+			(at 170.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.75"
+			(at 170.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 170.18 109.22 0)
 			(effects
 				(font
@@ -6051,7 +6851,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 121.92 44.45 0)
 			(effects
 				(font
@@ -6237,6 +7037,24 @@
 		)
 		(property "Description" "RGB LED with integrated controller"
 			(at 122.428 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C5149201"
+			(at 104.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK6812MINI-E"
+			(at 104.14 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6875,6 +7693,42 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C3647024"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-4020RGBC-2812B"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.75"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "ad4bdedd-e53e-4414-882f-819241a0cfd3")
 		)
@@ -6897,12 +7751,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 232.41 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b67dfae9-18a0-4063-ae6b-c389909208c2")
+		(property "Reference" "JP2"
+			(at 233.68 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 234.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbf6c03f-6d76-4fed-ad25-84959d8e9e05")
+		)
+		(pin "2"
+			(uuid "96f16060-4836-41c7-adea-6ae8170a3327")
+		)
+		(instances
+			(project "pixelblaze_battery_backpack"
+				(path "/74fafa03-a255-46ac-b2a3-3905ac0a0772/b70c2f0a-4e33-4cfe-b000-1a538201a71d"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 21.59 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6999,6 +7923,24 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 21.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.8125"
+			(at 21.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 21.59 41.91 0)
 			(effects
 				(font
@@ -7535,6 +8477,42 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C3647024"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-4020RGBC-2812B"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.75"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "ce2dfa5f-75c1-4bdf-aa7f-e5f29368aef4")
 		)
@@ -7628,7 +8606,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 151.13 44.45 0)
 			(effects
 				(font
@@ -7925,6 +8903,42 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C3647024"
+			(at 99.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-4020RGBC-2812B"
+			(at 99.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.75"
+			(at 99.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 99.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "6ebd0928-7b1a-41f4-bdaf-d9f59790fcc3")
 		)
@@ -8028,6 +9042,42 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C3647024"
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-4020RGBC-2812B"
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.75"
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 134.62 109.22 0)
 			(effects
 				(font
@@ -8356,7 +9406,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 50.8 44.45 0)
 			(effects
 				(font

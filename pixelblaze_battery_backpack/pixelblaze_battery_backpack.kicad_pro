@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|103445000|84593600|177e02da-6641-4e0b-817a-3d5d614bb85a|a6e0981c-79f2-4f42-90f2-6525ac647de7",
+          "courtyards_overlap|103345000|84593600|177e02da-6641-4e0b-817a-3d5d614bb85a|a6e0981c-79f2-4f42-90f2-6525ac647de7",
           ""
         ],
         [
@@ -76,7 +76,7 @@
           ""
         ],
         [
-          "courtyards_overlap|94255000|57135000|35eb1750-2e81-4a41-b694-192b84851bd4|e5f354a9-96f6-4cc0-a9f2-e99a3890b910",
+          "courtyards_overlap|94355000|57135000|35eb1750-2e81-4a41-b694-192b84851bd4|e5f354a9-96f6-4cc0-a9f2-e99a3890b910",
           ""
         ],
         [
@@ -84,11 +84,35 @@
           ""
         ],
         [
-          "silk_edge_clearance|50000000|66300000|a1eed57b-2542-4c04-9a49-240383acbe43|69c24a64-4efa-4061-93e4-50f1b3cc8da6",
+          "silk_edge_clearance|50000000|66300000|a1eed57b-2542-4c04-9a49-240383acbe43|ddc05541-e467-4d34-b5be-2c30cc4df161",
           ""
         ],
         [
-          "silk_edge_clearance|50000000|75700000|a1eed57b-2542-4c04-9a49-240383acbe43|28870500-566e-4d1c-bf77-9ced33455513",
+          "silk_edge_clearance|50000000|75700000|a1eed57b-2542-4c04-9a49-240383acbe43|97a0aeaa-4243-4f01-8e1d-ab9e9739d4ff",
+          ""
+        ],
+        [
+          "silk_overlap|100925000|57125000|6e974e0a-c7b1-4993-864a-b3ac27787baf|a023032c-e50a-4ba8-90aa-9044d2cf6bf4",
+          ""
+        ],
+        [
+          "silk_overlap|101785000|84875000|1e1af998-1204-4e28-8baa-7172982ffca2|5d746966-d218-48a1-9d12-97ceaa95a7c2",
+          ""
+        ],
+        [
+          "silk_overlap|103350000|84875000|1e1af998-1204-4e28-8baa-7172982ffca2|d30535b8-a4cb-4cd4-bea0-a3e84d8476ab",
+          ""
+        ],
+        [
+          "silk_overlap|103350000|84875000|8192f34d-4fc1-48a9-b645-61d0af72f9d1|d30535b8-a4cb-4cd4-bea0-a3e84d8476ab",
+          ""
+        ],
+        [
+          "silk_overlap|94350000|57030000|a023032c-e50a-4ba8-90aa-9044d2cf6bf4|a650a61d-e437-41c0-bccb-b72df31fde1d",
+          ""
+        ],
+        [
+          "silk_overlap|94350000|57030000|a023032c-e50a-4ba8-90aa-9044d2cf6bf4|f543a207-1548-4071-b898-7c36c254fc61",
           ""
         ],
         [
@@ -181,7 +205,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
         "min_text_thickness": 0.153,
-        "min_through_hole_diameter": 0.15,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.3,
@@ -697,7 +721,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -727,13 +751,13 @@
           "group_by": false,
           "label": "FT Position Offset",
           "name": "FT Position Offset",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "FT Rotation Offset",
           "name": "FT Rotation Offset",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

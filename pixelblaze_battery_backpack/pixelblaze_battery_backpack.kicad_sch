@@ -1646,6 +1646,12 @@
 		(uuid "390316ac-09df-4dc5-90b2-4cd14a9c93a2")
 	)
 	(junction
+		(at 198.12 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "511a91e4-ad5d-4023-b7b8-aae1f043b776")
+	)
+	(junction
 		(at 80.01 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1827,6 +1833,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 26.67) (xy 198.12 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260d6fb0-1645-40b8-a4d1-a7d5a5cf3f23")
+	)
+	(wire
+		(pts
 			(xy 105.41 60.96) (xy 105.41 57.15)
 		)
 		(stroke
@@ -1885,6 +1901,16 @@
 		)
 		(uuid "38745771-c9eb-43c3-8a64-97e8fa89e29b")
 	)
+	(wire
+		(pts
+			(xy 198.12 26.67) (xy 198.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b227b04-ff52-4fe6-a699-9385e8a1bc7a")
+	)
 	(bus
 		(pts
 			(xy 31.75 134.62) (xy 24.13 134.62)
@@ -1927,7 +1953,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 38.1) (xy 195.58 38.1)
+			(xy 182.88 38.1) (xy 198.12 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2037,6 +2063,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 38.1) (xy 199.39 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db7b397-b2af-4db0-9203-5b6b73ae3dfc")
+	)
+	(wire
+		(pts
 			(xy 142.24 104.14) (xy 156.21 104.14)
 		)
 		(stroke
@@ -2097,7 +2133,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 33.02) (xy 195.58 33.02)
+			(xy 190.5 33.02) (xy 199.39 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2223,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 40.64) (xy 195.58 40.64)
+			(xy 190.5 40.64) (xy 199.39 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2347,7 +2383,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 35.56) (xy 195.58 35.56)
+			(xy 182.88 35.56) (xy 199.39 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3491,15 +3527,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 200.66 35.56 0)
+		(at 204.47 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8b92e218-dbc4-4d7b-bf19-e6841441b0bd")
 		(property "Reference" "J9"
-			(at 203.2 35.5599 0)
+			(at 207.01 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3544,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 203.2 38.0999 0)
+			(at 207.01 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3554,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical"
-			(at 200.66 35.56 0)
+			(at 204.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3563,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 35.56 0)
+			(at 204.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3572,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 200.66 35.56 0)
+			(at 204.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,7 +3581,7 @@
 			)
 		)
 		(property "JLCPCB Part No." "C293547"
-			(at 200.66 35.56 0)
+			(at 204.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +3590,7 @@
 			)
 		)
 		(property "MPN" "436500415"
-			(at 200.66 35.56 0)
+			(at 204.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +3599,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 200.66 35.56 0)
+			(at 204.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3608,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 200.66 35.56 0)
+			(at 204.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3617,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 200.66 35.56 0)
+			(at 204.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +3626,25 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 200.66 35.56 0)
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.8125"
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 204.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,6 +4976,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Pixel_Data_In" input
+			(at 233.68 26.67 180)
+			(uuid "1948d601-a4b6-46f6-88c2-3c64aabe0d6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

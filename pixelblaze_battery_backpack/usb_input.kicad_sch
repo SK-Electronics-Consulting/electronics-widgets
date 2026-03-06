@@ -397,7 +397,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2800,7 +2800,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "-90"
 			(at 156.21 83.82 0)
 			(effects
 				(font
@@ -3054,7 +3054,7 @@
 		(pin "B5"
 			(uuid "65ac501a-8afb-4825-8b51-d73fde7717fa")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "7ec8be72-9144-43ed-bb7c-6ac014e26220")
 		)
 		(pin "B7"

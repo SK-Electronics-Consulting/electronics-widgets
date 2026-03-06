@@ -6553,6 +6553,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C106997"
+			(at 45.72 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402JRNPO9BN150"
+			(at 45.72 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6485e47a-fc64-46bf-a176-c7060b7875cd")
 		)
@@ -7553,6 +7571,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C138021"
+			(at 60.96 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
+			(at 60.96 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "263b1300-bfbc-4e71-984f-7675bffa8a36")
 		)
@@ -7648,6 +7684,24 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 45.72 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C106997"
+			(at 45.72 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402JRNPO9BN150"
 			(at 45.72 129.54 90)
 			(effects
 				(font
@@ -8104,7 +8158,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4fb7d533-219a-43ca-b1c8-d035652e6ac8")
 		(property "Reference" "R21"
@@ -9584,6 +9638,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C41378174"
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RP2354A"
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "21"
 			(uuid "bb165d7f-5881-48de-9a92-979eb1196189")
 		)
@@ -10787,6 +10868,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part No." "C138021"
+			(at 68.58 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
+			(at 68.58 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64507fbe-3d6c-43de-9aa9-b3c5956abf2d")
 		)
@@ -10956,7 +11055,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bbd2856b-565a-4264-8a1b-e38349e0571e")
 		(property "Reference" "J6"
@@ -12370,6 +12469,24 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 68.58 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No." "C138021"
+			(at 68.58 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
 			(at 68.58 101.6 90)
 			(effects
 				(font
